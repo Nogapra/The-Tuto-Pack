@@ -1,0 +1,8 @@
+#840F59 minecraft:bedrock
+#F522F4 minecraft:chest
+#8E0D84 mekanism:creative_chemical_tank
+#6B35EC mekanism:creative_fluid_tank
+#31B4C1 mekanismgenerators:fission_reactor_casing
+#3F84B7 minecraft:grass_block
+#C10E6D mekanism:ultimate_mechanical_pipe
+#7DD0FE mekanism:ultimate_pressurized_tube

@@ -1,0 +1,9 @@
+#47F minecraft:birch_forest
+#4F9 minecraft:dark_forest
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#286 minecraft:grove
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#5FF minecraft:river
+#51A minecraft:stony_shore

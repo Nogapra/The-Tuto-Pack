@@ -1,0 +1,8 @@
+#47F minecraft:birch_forest
+#4F9 minecraft:dark_forest
+#4CA minecraft:dripstone_caves
+#010 minecraft:forest
+#286 minecraft:grove
+#2D6 minecraft:meadow
+#1DF minecraft:old_growth_birch_forest
+#3DC minecraft:plains
