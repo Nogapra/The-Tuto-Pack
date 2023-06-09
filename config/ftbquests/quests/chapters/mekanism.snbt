@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "mekanism"
+	group: "02778963C079B8E1"
+	icon: "mekanism:digital_miner"
+	id: "201C02F0CF0A6D97"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.5d
+		hover: [ ]
+		image: "kubejs:textures/ftbquests/mekanism/mekanism.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 10.0d
+	}]
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mekanism"
+}

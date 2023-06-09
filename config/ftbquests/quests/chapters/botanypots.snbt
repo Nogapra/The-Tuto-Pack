@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "botanypots"
+	group: "02778963C079B8E1"
+	icon: "botanypots:terracotta_botany_pot"
+	id: "05EDE75479E32BC3"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 6.4804469273743015d
+		hover: [ ]
+		image: "kubejs:textures/ftbquests/botanypots/botanypots.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["un botany pots sert à faire pousser des plantation de manière automatique"]
+		icon: "botanypots:terracotta_botany_pot"
+		id: "499836EF6A1FDF7A"
+		shape: "circle"
+		subtitle: "&aCraftez un Bonaty Pots"
+		tasks: [{
+			id: "2AB76F3B7429701A"
+			item: "botanypots:terracotta_botany_pot"
+			type: "item"
+		}]
+		title: "Botany Pots"
+		x: -6.0d
+		y: 6.5d
+	}]
+	title: "Botany Pots"
+}

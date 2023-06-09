@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "expandedstorage"
+	group: "02778963C079B8E1"
+	icon: "expandedstorage:obsidian_chest"
+	id: "5EBE4D90D8ED5955"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 4.301994301994302d
+		hover: [ ]
+		image: "kubejs:textures/ftbquests/expandedstorage/expandedstorage.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6F1272A8F3D751AC"
+			tasks: [{
+				id: "04A314775226E2F8"
+				item: "expandedstorage:old_wood_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "10163866D72DA8E7"
+			tasks: [{
+				id: "405A58C3186367BC"
+				item: "expandedstorage:old_iron_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "7EA950F224BAD606"
+			tasks: [{
+				id: "53EAFEF8A11EEEEF"
+				item: "expandedstorage:iron_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "4CA74E8170F3B709"
+			tasks: [{
+				id: "78D22375C3D78A99"
+				item: "expandedstorage:wood_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "7F11A18ADED8EF5F"
+			tasks: [{
+				id: "38E5D1C315B38BEB"
+				item: "expandedstorage:diamond_mini_barrel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "28D6884CCF52D223"
+			tasks: [{
+				id: "5BF0559C4728A3B4"
+				item: "expandedstorage:gold_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "2E331AEAF84FD074"
+			tasks: [{
+				id: "7D1D23EB8508DC2E"
+				item: "expandedstorage:diamond_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "4C86E3ABDB52834E"
+			tasks: [{
+				id: "521D2DF1FDB5533E"
+				item: "expandedstorage:obsidian_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			id: "441CCD7C416F63B1"
+			tasks: [{
+				id: "0DDD71BDD452D71A"
+				item: "expandedstorage:netherite_chest"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			id: "66694E5A042B4727"
+			tasks: [{
+				id: "4513AB7AB8BC520C"
+				item: "expandedstorage:old_gold_chest"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+	]
+	title: "Expanded Storage"
+}

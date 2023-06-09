@@ -1,0 +1,1575 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ironfurnace"
+	group: "02778963C079B8E1"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "ironfurnaces:iron_furnace"
+	id: "3D200E0FEC840D62"
+	images: [{
+		click: "https://github.com/Qelifern/IronFurnaces/wiki"
+		corner: false
+		dependency: "70DBEE7D7D9B6A93"
+		dev: false
+		height: 3.56125d
+		hover: [
+			""
+			"&aCliquez sur &5l'image &apour avoir"
+			"&aLe lien du &6wiki"
+			""
+		]
+		image: "kubejs:textures/ftbquests/ironfurnaces/ironfurnaces.png"
+		rotation: 0.0d
+		width: 11.0d
+		x: -7.0d
+		y: -8.0d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1E8C3BF31D2FCFA7"
+				"6E1194705458DD8A"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Le &#C26B4CCopper Furnace&r offre de"
+				"&ameilleurs caractéristiques&r que"
+				"le Furnace de Minecraft®."
+				""
+				"En mode cuisson :"
+				"&a180&r ticks pour cuire un Item, soit &a9s&r."
+				""
+				"En mode générateur produit :"
+				"&a20 RF/tick."
+				""
+				"Réserve d'énergie :"
+				"&a80 000 RF&r."
+				""
+				"Ces &acaractéristiques&r peuvent"
+				"être modifiées grâce au"
+				"différents &5Augment &rdu mod"
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&#F2D81A1 seconde = 20 ticks."
+				"&#F2D81A1 Furnace de minecraft®"
+				"&#F2D81Acuit un item en 200 ticks soit 10s."
+				""
+			]
+			hide_details_until_startable: true
+			icon: "ironfurnaces:copper_furnace"
+			id: "66FCE740899C2C10"
+			rewards: [{
+				id: "017DA128506D8B6F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &#C26B4CCopper Furnace"
+			tasks: [{
+				id: "795A1FC331D85A0D"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			title: "&l&#C26B4CCopper furnace"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2B1B504C01BC6E16"
+				"70DBEE7D7D9B6A93"
+				"41D6A9908115F916"
+			]
+			description: [
+				""
+				"Le &#AAACCCSilver Furnace&r offre de"
+				"&ameilleurs caractéristiques&r que"
+				"le Furnace de Minecraft®."
+				""
+				"En mode cuisson :"
+				"&a140 ticks&r pour cuire un Item, soit &a7s&r."
+				""
+				"En mode générateur produit :"
+				"&a50 RF/tick."
+				""
+				"Réserve d'énergie :"
+				"&a200 000 RF&r."
+				""
+				"Ces &acaractéristiques&r peuvent"
+				"être modifiées grâce au"
+				"différents &5Augment &rdu mod"
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&#F2D81A1 seconde = 20 ticks."
+				"&#F2D81A1 Furnace de minecraft®"
+				"&#F2D81Acuit un item en 200 ticks soit 10s."
+				""
+				"&n&4Recette secondaire supprimer&r"
+				""
+				"Avec les configurations par défaut"
+				"Il existe une seconde recette de "
+				"craft dont voiçi la recette :"
+				""
+				"Dans une crafting table : "
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/silverfurnace.png width:170 height:80 align:1}"
+				""
+			]
+			icon: "ironfurnaces:silver_furnace"
+			id: "67E401446F4F05FA"
+			rewards: [{
+				id: "53FB73144035D7FB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &#AAACCCSilver Furnace"
+			tasks: [{
+				id: "692ABB40726BE821"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			title: "&l&#AAACCCSilver Furnace"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"66FCE740899C2C10"
+				"06A2D59E18FBE5BC"
+				"41D6A9908115F916"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"L'&#D6D6D6Iron Furnace&r offre de"
+				"&ameilleurs caractéristiques&r que"
+				"le Furnace de Minecraft®."
+				""
+				"En mode cuisson :"
+				"&a160 ticks&r pour cuire un Item, soit &a8s&r."
+				""
+				"En mode générateur produit :"
+				"&a20 RF/tick."
+				""
+				"Réserve d'énergie :"
+				"&a80 000 RF&r."
+				""
+				"Ces &acaractéristiques&r peuvent"
+				"être modifiées grâce au"
+				"différents &5Augment &rdu mod"
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&#F2D81A1 seconde = 20 ticks."
+				"&#F2D81A1 Furnace de minecraft®"
+				"&#F2D81Acuit un item en 200 ticks soit 10s."
+				""
+				"&n&4Recette secondaire supprimer&r"
+				""
+				"Avec les configurations par défaut"
+				"Il existe une seconde recette de "
+				"craft dont voiçi la recette :"
+				""
+				"Dans une crafting table : "
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/ironfurnace.png width:170 height:80 align:1}"
+				""
+			]
+			icon: "ironfurnaces:iron_furnace"
+			id: "2B1B504C01BC6E16"
+			rewards: [{
+				id: "3A11078B17B0CBEC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &#D6D6D6Iron Furnace"
+			tasks: [{
+				id: "28587EB3FF0F69A6"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			title: "&l&#D6D6D6Iron Furnace"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"67E401446F4F05FA"
+				"70DBEE7D7D9B6A93"
+				"41D6A9908115F916"
+			]
+			description: [
+				""
+				"Le &#FED639Gold Furnace&r offre de"
+				"&ameilleurs caractéristiques&r que"
+				"le Furnace de Minecraft®."
+				""
+				"En mode cuisson :"
+				"&a120 ticks&r pour cuire un Item, soit &a6s&r."
+				""
+				"En mode générateur produit :"
+				"&a80 RF/tick."
+				""
+				"Réserve d'énergie :"
+				"&a200 000 RF&r."
+				""
+				"Ces &acaractéristiques&r peuvent"
+				"être modifiées grâce au"
+				"différents &5Augment &rdu mod"
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&#F2D81A1 seconde = 20 ticks."
+				"&#F2D81A1 Furnace de minecraft®"
+				"&#F2D81Acuit un item en 200 ticks soit 10s."
+				""
+				"&n&4Recette secondaire supprimer&r"
+				""
+				"Avec les configurations par défaut"
+				"Il existe une seconde recette de "
+				"craft dont voiçi la recette :"
+				""
+				"Dans une crafting table : "
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/goldfurnace.png width:170 height:80 align:1}"
+				""
+			]
+			icon: "ironfurnaces:gold_furnace"
+			id: "3180F86FCD3E3204"
+			rewards: [{
+				id: "460BB9D4BC76C8B5"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &#FED639Gold Furnace"
+			tasks: [{
+				id: "648558267BA424B6"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			title: "&l&#FED639Gold Furnace"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3180F86FCD3E3204"
+				"5B39DF7B5DAA0E50"
+				"70DBEE7D7D9B6A93"
+				"41D6A9908115F916"
+			]
+			description: [
+				""
+				"Le &#65F5E3Diamond Furnace&r offre de"
+				"&ameilleurs caractéristiques&r que"
+				"le Furnace de Minecraft®."
+				""
+				"En mode cuisson :"
+				"&a80 ticks&r pour cuire un Item, soit &a4s&r."
+				""
+				"En mode générateur produit :"
+				"&a120 RF/tick."
+				""
+				"Réserve d'énergie :"
+				"&a200 000 RF&r."
+				""
+				"Ces &acaractéristiques&r peuvent"
+				"être modifiées grâce au"
+				"différents &5Augment &rdu mod"
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&#F2D81A1 seconde = 20 ticks."
+				"&#F2D81A1 Furnace de minecraft®"
+				"&#F2D81Acuit un item en 200 ticks soit 10s."
+				""
+			]
+			icon: "ironfurnaces:diamond_furnace"
+			id: "4FBCCAD0009FDBF9"
+			rewards: [{
+				id: "1B63FD719D71A0D8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &#65F5E3Diamond Furnace"
+			tasks: [{
+				id: "1C60642CBC5BC39F"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			title: "&l&#65F5E3Diamond Furnace"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4FBCCAD0009FDBF9"
+				"41D6A9908115F916"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Le &#23B8F9Crystal Furnace&r offre de"
+				"&ameilleurs caractéristiques&r que"
+				"le Furnace de Minecraft®."
+				""
+				"En mode cuisson :"
+				"&a40 ticks&r pour cuire un Item, soit &a2s&r."
+				""
+				"En mode générateur produit :"
+				"&a180 RF/tick."
+				""
+				"Réserve d'énergie :"
+				"&a1 000 000 RF&r."
+				""
+				"Ces &acaractéristiques&r peuvent"
+				"être modifiées grâce au"
+				"différents &5Augment &rdu mod"
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&#F2D81A1 seconde = 20 ticks."
+				"&#F2D81A1 Furnace de minecraft®"
+				"&#F2D81Acuit un item en 200 ticks soit 10s."
+				""
+			]
+			icon: "ironfurnaces:crystal_furnace"
+			id: "58F03856E4C106F7"
+			rewards: [{
+				id: "3B1C267325459469"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &#23B8F9Crystal Furnace"
+			tasks: [{
+				id: "547B8C6FB3885BA3"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			title: "&l&#23B8F9Crystal Furnace"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"70DBEE7D7D9B6A93"
+				"4FBCCAD0009FDBF9"
+			]
+			description: [
+				""
+				"Le &#0CDB19Emerald Furnace&r offre de"
+				"&ameilleurs caractéristiques&r que"
+				"le Furnace de Minecraft®."
+				""
+				"En mode cuisson :"
+				"&a40 ticks&r pour cuire un Item, soit &a2s&r."
+				""
+				"En mode générateur produit :"
+				"&a160 RF/tick."
+				""
+				"Réserve d'énergie :"
+				"&a200 000 RF&r."
+				""
+				"Ces &acaractéristiques&r peuvent"
+				"être modifiées grâce au"
+				"différents &5Augment &rdu mod"
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&#F2D81A1 seconde = 20 ticks."
+				"&#F2D81A1 Furnace de minecraft®"
+				"&#F2D81Acuit un item en 200 ticks soit 10s."
+			]
+			id: "4145BAEA7F41C1C2"
+			rewards: [{
+				id: "4D3C0241ED8F313A"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &#0CDB19Emerald Furnace"
+			tasks: [{
+				id: "23285F5AA004DFCD"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			title: "&l&#0CDB19Emerald Furnace"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4145BAEA7F41C1C2"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"L'&#674591Obsidian Furnace&r offre de"
+				"&ameilleurs caractéristiques&r que"
+				"le Furnace de Minecraft®."
+				""
+				"En mode cuisson :"
+				"&a20 ticks&r pour cuire un Item, soit &a9s&r."
+				""
+				"En mode générateur produit :"
+				"&a250 RF/tick."
+				""
+				"Réserve d'énergie :"
+				"&a1 000 000 RF&r."
+				""
+				"Ces &acaractéristiques&r peuvent"
+				"être modifiées grâce au"
+				"différents &5Augment &rdu mod"
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&#F2D81A1 seconde = 20 ticks."
+				"&#F2D81A1 Furnace de minecraft®"
+				"&#F2D81Acuit un item en 200 ticks soit 10s."
+				""
+			]
+			icon: "ironfurnaces:obsidian_furnace"
+			id: "5C5A25ADC21D370D"
+			rewards: [{
+				id: "2061A1FC5FE91FDD"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &#674591Obsidian Furnace"
+			tasks: [{
+				id: "5BF0074C15756BB1"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			title: "&l&#674591Obsidian Furnace"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5C5A25ADC21D370D"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Le &#652D0BNetherite Furnace&r offre de"
+				"&ameilleurs caractéristiques&r que"
+				"le Furnace de Minecraft®."
+				""
+				"En mode cuisson :"
+				"&a5 ticks&r pour cuire un Item,"
+				"soit &a4 Items/s."
+				""
+				"En mode générateur produit :"
+				"&a400 RF/tick."
+				""
+				"Réserve d'énergie :"
+				"&a1 000 000 RF&r."
+				""
+				"Ces &acaractéristiques&r peuvent"
+				"être modifiées grâce au"
+				"différents &5Augment &rdu mod"
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&#F2D81A1 seconde = 20 ticks."
+				"&#F2D81A1 Furnace de minecraft®"
+				"&#F2D81Acuit un item en 200 ticks soit 10s."
+				""
+			]
+			icon: "ironfurnaces:netherite_furnace"
+			id: "0BA7409C018A84CC"
+			rewards: [{
+				id: "54749F138A426023"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &#652D0BNetherite Furnace"
+			tasks: [{
+				id: "2E090660F0B66F04"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			title: "&l&#652D0BNetherite Furnace"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2EC17BDB9E233B58"
+				"2CDEB20702CDB119"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Le &9R&ea&ei&dn&bb&9o&aw &dF&cu&dr&en&da&bc&ce&r offre les"
+				"&ameilleurs caractéristiques&r du mod,"
+				"et permet de cuire les items par"
+				"stack directement."
+				""
+				"En mode cuisson :"
+				"&a20 ticks&r pour cuire un stack d' Item,"
+				"soit &a1s/stack&r."
+				""
+				"En mode générateur produit :"
+				"&a1000 RF/tick."
+				""
+				"Réserve d'énergie :"
+				"&a1 000 000 RF&r."
+				""
+				"Ces &acaractéristiques&r peuvent"
+				"être modifiées grâce au"
+				"différents &5Augment &rdu mod"
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&#F2D81A1 seconde = 20 ticks."
+				"&#F2D81A1 Furnace de minecraft®"
+				"&#F2D81Acuit un item en 200 ticks soit 10s."
+				""
+			]
+			icon: {
+				Count: 1b
+				id: "ironfurnaces:million_furnace"
+				tag: {
+					display: {
+						Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"i\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"b\"},{\"color\":\"yellow\",\"text\":\"o\"},{\"color\":\"aqua\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"yellow\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}"
+					}
+				}
+			}
+			id: "453EBCDFDE59046C"
+			rewards: [{
+				id: "36C5D0A519AD5014"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &9R&ea&ei&dn&bb&9o&aw &dF&cu&dr&en&da&bc&ce"
+			tasks: [{
+				id: "4803E9744353EBC7"
+				item: {
+					Count: 1b
+					id: "ironfurnaces:million_furnace"
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"i\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"green\",\"text\":\"w\"},{\"color\":\"yellow\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"red\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&9R&ea&ei&dn&bb&9o&aw &dF&cu&dr&en&da&bc&ce"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0BA7409C018A84CC"
+				"70DBEE7D7D9B6A93"
+				"04D8ED7016C6CDEC"
+				"428CB281E1599490"
+				"35E4B66F974FE8EC"
+				"3862C9EE76162D22"
+				"73D1CF5E3FEFE378"
+				"271E3D86A8A2A403"
+				"4E97034B43890D9A"
+			]
+			description: [
+				""
+				"Composant obligatoire permettant de"
+				"crafter le &9R&ea&ei&dn&bb&9o&aw &dF&cu&dr&en&da&bc&ce"
+				"et le &9R&ea&ei&dn&bb&9o&aw &dL&ci&dn&ek&de&br&r."
+				""
+			]
+			hide_details_until_startable: true
+			icon: "ironfurnaces:rainbow_core"
+			id: "2CDEB20702CDB119"
+			rewards: [{
+				id: "7986D612180172FD"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			shape: "circle"
+			subtitle: "&aCraftez 2 x &9R&ea&ei&dn&bb&9o&aw &eC&do&br&ce"
+			tasks: [{
+				count: 2L
+				id: "7218E043D181D0CF"
+				item: "ironfurnaces:rainbow_core"
+				type: "item"
+			}]
+			title: "&l&9R&ea&ei&dn&bb&9o&aw &eC&do&br&ce"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"66FCE740899C2C10"
+				"58F03856E4C106F7"
+				"67E401446F4F05FA"
+				"3180F86FCD3E3204"
+				"5C5A25ADC21D370D"
+				"4FBCCAD0009FDBF9"
+				"4145BAEA7F41C1C2"
+				"2B1B504C01BC6E16"
+				"0BA7409C018A84CC"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Composant obligatoire permettant de"
+				"crafter le &9R&ea&ei&dn&bb&9o&aw &dF&cu&dr&en&da&bc&ce&r."
+				""
+			]
+			icon: "ironfurnaces:rainbow_plating"
+			id: "2EC17BDB9E233B58"
+			rewards: [{
+				id: "204E828F9C127A97"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &9R&ea&ei&dn&bb&9o&aw &dP&cl&da&et&di&bn&cg"
+			tasks: [{
+				id: "17FC7459738E90BA"
+				item: "ironfurnaces:rainbow_plating"
+				type: "item"
+			}]
+			title: "&l&9R&ea&ei&dn&bb&9o&aw &dP&cl&da&et&di&bn&cg"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"737800F99B1D8D7A"
+				"6E1194705458DD8A"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&7Furnace Standard&r"
+				"en &l&#C26B4CCopper Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&7Furnace Standard&r dans le monde"
+			]
+			icon: "ironfurnaces:upgrade_copper"
+			id: "29D0F7D10CC08226"
+			optional: true
+			rewards: [{
+				id: "0DD65386A9CF285C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &7Stone to Copper Furnace Upgrade"
+			tasks: [{
+				id: "7140601994752B5D"
+				item: "ironfurnaces:upgrade_copper"
+				type: "item"
+			}]
+			title: "&l&5Upgrade du &7Furnace Standard &5vers le &#C26B4CCopper Furnace"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"41D6A9908115F916"
+				"6E1194705458DD8A"
+				"06A2D59E18FBE5BC"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#C26B4CCopper Furnace &r"
+				"en &l&7Iron Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#C26B4CCopper Furnace&r dans le monde"
+			]
+			icon: "ironfurnaces:upgrade_iron2"
+			id: "17C17EBE20A8142A"
+			optional: true
+			rewards: [{
+				id: "6C37BEDF0F7BD14A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &#C26B4CCopper to Iron Furnace Upgrade"
+			tasks: [{
+				id: "62C63B7346AE4D77"
+				item: "ironfurnaces:upgrade_iron2"
+				type: "item"
+			}]
+			title: "&l&5Upgrade du &#C26B4CCopper Furnace &5vers le &7Iron Furnace"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"17C17EBE20A8142A"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&7Cobblestone Furnace&r"
+				"en &l&#D6D6D6Iron Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&7Cobblestone Furnace&r dans le monde."
+				""
+				"&cIncraftable&r dans ce Modpack."
+				""
+				"Avec des configurations par défaut,"
+				"la recette est la suivante : "
+				""
+				"Dans une crafting table : "
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/stonetoiron.png width:170 height:80 align:1}"
+			]
+			icon: "ironfurnaces:upgrade_iron"
+			id: "4D8EEFF05CF2706E"
+			optional: true
+			shape: "pentagon"
+			subtitle: "&cCraft supprimer"
+			tasks: [{
+				id: "6901627FF2279BD7"
+				item: "ironfurnaces:upgrade_iron2"
+				type: "item"
+			}]
+			title: "&l&cUpgrade du &7Cobblestone Furnace &cvers l'&#D6D6D6Iron Furnace"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2B1B504C01BC6E16"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#D6D6D6Iron Furnace&r"
+				"en &l&#AAACCCSilver Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#D6D6D6Iron Furnace&r dans le monde"
+			]
+			hide_dependency_lines: true
+			icon: "ironfurnaces:upgrade_silver2"
+			id: "6B440B23822E70C2"
+			optional: true
+			rewards: [{
+				id: "3177E978ED1AB1F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &#D6D6D6Iron to Silver Furnace Upgrade"
+			tasks: [{
+				id: "1DDEE5A561B91A5A"
+				item: "ironfurnaces:upgrade_silver2"
+				type: "item"
+			}]
+			title: "&l&5Upgrade du &#D6D6D6Iron Furnace &5vers le &#AAACCCSilver Furnace"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"6B440B23822E70C2"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#C26B4CCopper Furnace&r"
+				"en &l&#BDC7C5Silver Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#C26B4CCopper Furnace&r dans le monde."
+				""
+				"&l&cIncraftable&r dans ce Modpack."
+				""
+				"Avec des configurations par défaut,"
+				"la recette est la suivante : "
+				""
+				"Dans une crafting table : "
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/coppertosilver.png width:170 height:80 align:1}"
+			]
+			icon: "ironfurnaces:upgrade_silver"
+			id: "7B9DD6889A8BC1CA"
+			optional: true
+			shape: "pentagon"
+			subtitle: "&cCraft supprimer"
+			tasks: [{
+				id: "6335E63BC5421D34"
+				item: "ironfurnaces:upgrade_silver2"
+				type: "item"
+			}]
+			title: "&l&cUpgrade du &#C26B4CCopper Furnace &cvers le &#BDC7C5Silver Furnace"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"67E401446F4F05FA"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#AAACCCSilver Furnace &r"
+				"en &l&#FED639Gold Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#AAACCCSilver Furnace&r dans le monde"
+			]
+			hide_dependency_lines: true
+			icon: "ironfurnaces:upgrade_gold2"
+			id: "40457A5241FC53FB"
+			optional: true
+			rewards: [{
+				id: "5EAA36A82EF1BA0C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &#AAACCCSilver to Gold Furnace Upgrade"
+			tasks: [{
+				id: "2179770A061460FF"
+				item: "ironfurnaces:upgrade_gold2"
+				type: "item"
+			}]
+			title: "&l&5Upgrade du &#AAACCCSilver Furnace &5vers le &#FED639Gold Furnace"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"40457A5241FC53FB"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#D6D6D6Iron Furnace&r"
+				"en &l&#FED639Gold Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#D6D6D6Iron Furnace&r dans le monde."
+				""
+				"&cIncraftable&r dans ce Modpack."
+				""
+				"Avec des configurations par défaut,"
+				"la recette est la suivante : "
+				""
+				"Dans une crafting table : "
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/irontogold.png width:170 height:80 align:1}"
+			]
+			icon: "ironfurnaces:upgrade_gold"
+			id: "31CC8847D17DEB78"
+			optional: true
+			shape: "pentagon"
+			subtitle: "&cCraft supprimer"
+			tasks: [{
+				id: "09BBAB2D76698B48"
+				item: "ironfurnaces:upgrade_gold2"
+				type: "item"
+			}]
+			title: "&l&cUpgrade de l'&#D6D6D6Iron Furnace &cvers le &#FED639Gold Furnace"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3180F86FCD3E3204"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#FED639Gold Furnace &r"
+				"en &l&#65F5E3Diamond Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#FED639Gold Furnace&r dans le monde"
+			]
+			hide_dependency_lines: true
+			icon: "ironfurnaces:upgrade_diamond"
+			id: "3EE1F520FA5A10D5"
+			optional: true
+			rewards: [{
+				id: "40D5B4BCABADAF52"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &#FED639Gold to Diamond Furnace Upgrade"
+			tasks: [{
+				id: "17F96C72F21C6845"
+				item: "ironfurnaces:upgrade_diamond"
+				type: "item"
+			}]
+			title: "&l&5Upgrade du &#FED639Gold Furnace &5vers le &#65F5E3Diamond Furnace"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4FBCCAD0009FDBF9"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#65F5E3Diamond Furnace &r"
+				"en &l&#0CDB19Emerald Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#65F5E3Diamond Furnace&r dans le monde"
+			]
+			hide_dependency_lines: true
+			icon: "ironfurnaces:upgrade_emerald"
+			id: "549550DC7F0CC7AA"
+			optional: true
+			rewards: [{
+				id: "255D6D52A395B4A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &#65F5E3Diamond to Emerald Furnace Upgrade"
+			tasks: [{
+				id: "08CAB7055428FDCB"
+				item: "ironfurnaces:upgrade_emerald"
+				type: "item"
+			}]
+			title: "&l&5Upgrade du &#65F5E3Diamond Furnace &5vers le &#0CDB19Emeral Furnace"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4FBCCAD0009FDBF9"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#65F5E3Diamond Furnace &r"
+				"en &l&#23B8F9Crystal Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#65F5E3Diamond Furnace&r dans le monde"
+			]
+			hide_dependency_lines: true
+			icon: "ironfurnaces:upgrade_crystal"
+			id: "653BDCF69C3F46F9"
+			optional: true
+			rewards: [{
+				id: "7773E53CFA50AEE6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &#65F5E3Diamond to Crystal Furnace Upgrade"
+			tasks: [{
+				id: "288D000D70D5E910"
+				item: "ironfurnaces:upgrade_crystal"
+				type: "item"
+			}]
+			title: "&l&5Upgrade du &#65F5E3Diamond Furnace &5vers le &#23B8F9Crystal Furnace"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"58F03856E4C106F7"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#23B8F9Crystal Furnace &r"
+				"en &l&#674591Obsidian Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#23B8F9Crystal Furnace&r dans le monde"
+			]
+			hide_dependency_lines: true
+			icon: "ironfurnaces:upgrade_obsidian2"
+			id: "633C4012F9D27FA2"
+			optional: true
+			rewards: [{
+				id: "31AAF321A366D2F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &#23B8F9Crystal to Obsidian Upgrade"
+			tasks: [{
+				id: "21AF9492F2109643"
+				item: "ironfurnaces:upgrade_obsidian2"
+				type: "item"
+			}]
+			title: "&l&5Upgrade du &#23B8F9Crystal Furnace &5vers l'&#674591Obsidian Furnace"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"4145BAEA7F41C1C2"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#0CDB19Emerald Furnace &r"
+				"en &l&#674591Obsidian Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#0CDB19Emerald Furnace&r dans le monde"
+			]
+			hide_dependency_lines: true
+			icon: "ironfurnaces:upgrade_obsidian"
+			id: "0EF793012D7F997C"
+			optional: true
+			rewards: [{
+				id: "3D5CCF9FB60B30E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &#0CDB19Emerald to Obsidian Furnace Upgrade"
+			tasks: [{
+				id: "6CE33DE4F981C961"
+				item: "ironfurnaces:upgrade_obsidian"
+				type: "item"
+			}]
+			title: "&l&5Upgrade du &#0CDB19Emerald Furnace &5vers l'&#674591Obsidian Furnace"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5C5A25ADC21D370D"
+				"70DBEE7D7D9B6A93"
+			]
+			description: [
+				""
+				"Item servant à upgrader un &l&#674591Obsidian Furnace &r"
+				"en &l&#652D0BNetherite Furnace&r avec un clic droit + sneak"
+				"directement sur le &l&#674591Obsidian Furnace&r dans le monde"
+			]
+			hide_dependency_lines: true
+			icon: "ironfurnaces:upgrade_netherite"
+			id: "0460BBC8F81E5925"
+			optional: true
+			rewards: [{
+				id: "298854A827A2DB10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &#674591Obsidian to Netherite Furnace Upgrade"
+			tasks: [{
+				id: "260F3998771B128D"
+				item: "ironfurnaces:upgrade_netherite"
+				type: "item"
+			}]
+			title: "&l&5Upgrade de l'&#674591Obsidian Furnace &5vers le &#652D0BNetherite Furnace"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"70DBEE7D7D9B6A93"
+				"322A37E139F6B4B9"
+				"5D51D60BEE8EC634"
+				"05569C15D838EBDF"
+				"5D547578AC5E04F4"
+			]
+			description: [
+				""
+				"Cet &5Augment&r vous permettra de"
+				"transformer votre &6Furnace&r en"
+				"&6Blast Furnace&r qui ne cuira donc"
+				"que des minerais brut."
+				""
+				"Cet &5Augment&r se mettra dans le"
+				"slot &crouge&r dans l'onglet des"
+				"&5Augments&r du &6Furnace."
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&cCet &5augment &cest incompatible"
+				"&cavec l'&5Augment: Smoking."
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/augmentblasting.png width:150 height:42 align:1}"
+				""
+			]
+			icon: "ironfurnaces:augment_blasting"
+			id: "43805157705B3579"
+			rewards: [{
+				id: "57FDEF469D56825E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &5Augment: Blasting"
+			tasks: [{
+				id: "788A0FD80DAEF6D8"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			title: "&l&5Augment: Blasting"
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"70DBEE7D7D9B6A93"
+				"322A37E139F6B4B9"
+				"64F92EDD0EF6F818"
+				"05569C15D838EBDF"
+				"5D547578AC5E04F4"
+			]
+			description: [
+				""
+				"Cet &5Augment&r vous permettra de"
+				"transformer votre &6Furnace&r en"
+				"&6Smoker Furnace&r qui ne cuira donc"
+				"que de la nourriture."
+				""
+				"Cet &5Augment&r se mettra dans le"
+				"slot &crouge&r dans l'onglet des"
+				"&5Augments&r du &6Furnace."
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&cCet &5Augment &cest incompatible"
+				"&cavec l'&5Augment: Blasting."
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/augmentsmoking.png width:150 height:42 align:1}"
+				""
+			]
+			icon: "ironfurnaces:augment_smoking"
+			id: "615A3AFB1B2CF29B"
+			rewards: [{
+				id: "114E67A0777709D4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &5Augment: Smoking"
+			tasks: [{
+				id: "70C7177934D30EE5"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			title: "&l&5Augment: Smoking"
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"70DBEE7D7D9B6A93"
+				"322A37E139F6B4B9"
+				"7C5F07566B74301B"
+				"05569C15D838EBDF"
+				"5D547578AC5E04F4"
+			]
+			description: [
+				""
+				"Cet &5Augment&r vous permettra de"
+				"multiplier par &a2 la vitesse&r de cuisson"
+				"de votre &6Furnace."
+				"En contrepartie votre &6Furnace&r"
+				"consommera &c2 fois&r plus de combutible."
+				""
+				"Cet &5Augment&r se mettra dans le"
+				"slot &2vert&r dans l'onglet des"
+				"&5Augments&r du &6furnace."
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&cCet &5augment &cest incompatible"
+				"&cavec l'&5Augment: Fuel Efficiency"
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/augmentspeed.png width:150 height:42 align:1}"
+				""
+			]
+			icon: "ironfurnaces:augment_speed"
+			id: "18A67E27A575A386"
+			rewards: [{
+				id: "14513A02B622E1FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &5Augment: Speed"
+			tasks: [{
+				id: "78FF3961FE626C42"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			title: "&l&5Augment: Speed"
+			x: -14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"70DBEE7D7D9B6A93"
+				"322A37E139F6B4B9"
+				"7FD8C0BD3671450E"
+				"05569C15D838EBDF"
+				"5D547578AC5E04F4"
+			]
+			description: [
+				""
+				"Cet &5Augment&r vous permettra de"
+				"multiplier par &a2 la durée&r de temps"
+				"de cuisson d'un item de combustible."
+				"En contrepartie votre &6Furnace&r va "
+				"cuire &c25% moins vite&r que ça vitesse"
+				"d'origine."
+				""
+				"Cet &5Augment&r se mettra dans le"
+				"slot &2vert&r dans l'onglet des"
+				"&5Augments&r du &6furnace."
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&cCet &5augment &cest incompatible"
+				"&cavec l'&5Augment: Speed."
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/augmentfuelefficiency.png width:150 height:42 align:1}"
+				""
+			]
+			icon: "ironfurnaces:augment_fuel"
+			id: "065843804B67AC33"
+			rewards: [{
+				id: "39F093F74C9FDE86"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &5Augment: Fuel Efficiency"
+			tasks: [{
+				id: "79F9D09F0A9CB005"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			title: "&l&5Augment: Fuel Efficiency"
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"70DBEE7D7D9B6A93"
+				"322A37E139F6B4B9"
+				"5AEFA47F506BF554"
+				"05569C15D838EBDF"
+				"5D547578AC5E04F4"
+			]
+			description: [
+				""
+				"Cet &5Augment&r vous permettra de"
+				"transformer votre &6furnace&r en"
+				"&6blast furnace&r qui ne cuira donc"
+				"que des minerais brut."
+				""
+				"Cet &5Augment&r se mettra dans le"
+				"slot &9bleu&r dans l'onglet des"
+				"&5Augments&r du &6furnace."
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&cCet &5augment &cest incompatible"
+				"&cavec l'&5Augment: Factory."
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/augmentgenerator.png width:150 height:42 align:1}"
+			]
+			icon: "ironfurnaces:augment_generator"
+			id: "10249EF2768FB1FA"
+			rewards: [{
+				id: "4B38C8B924793C4C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &5Augment: Generator"
+			tasks: [{
+				id: "6FE5EE2997DBC16A"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			title: "&l&5Augment: Generator"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"70DBEE7D7D9B6A93"
+				"322A37E139F6B4B9"
+				"5EA6E18347A52DE5"
+				"05569C15D838EBDF"
+				"5D547578AC5E04F4"
+			]
+			description: [
+				""
+				"Cet &5Augment&r vous permettra de"
+				"modifier le type de combustible"
+				"utilisé pour la cuisson des items."
+				""
+				"De plus suivant le Tiers de votre"
+				"&6Furnace&r celui-ci aura des slots"
+				"en plus pour augmenter sa capacité"
+				"de cuisson."
+				""
+				"Il existe &a3 tiers&r de &6Furnace."
+				"(voir les pages suivante)."
+				""
+				"Cet &5Augment&r se mettra dans le"
+				"slot &9bleu&r dans l'onglet des"
+				"&5Augments&r du &6furnace."
+				"{image:forge:textures/gui/experimental_warning.png width:20 height:20 align:1}"
+				"&cCet &5augment &cest incompatible"
+				"&cavec l'&5Augment: Generator."
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/augmentfactory.png width:150 height:42 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"&6Furnace&r de &#F2D81ATiers 0 :"
+				""
+				"&#C26B4CCopper Furnace"
+				"&#D6D6D6Iron Furnace"
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/factorytiers0.png width:130 height:45 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"&6Furnace&r de &#F2D81ATiers 1 :"
+				""
+				"&#AAACCCSilver Furnace"
+				"&#FED639Gold Furnace"
+				"&#65F5E3Diamond Furnace"
+				"&#0CDB19Emerald Furnace"
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/factorytiers1.png width:130 height:45 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"&6Furnace&r de &#F2D81ATiers 2 :"
+				""
+				"&#23B8F9Crystal Furnace"
+				"&#674591Obsidian Furnace"
+				"&#652D0BNetherite Furnace"
+				"&9R&ea&ei&dn&bb&9o&aw &dF&cu&dr&en&da&bc&ce"
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/factorytiers2.png width:130 height:45 align:1}"
+				""
+			]
+			icon: "ironfurnaces:augment_factory"
+			id: "138E788C9314D5D3"
+			rewards: [{
+				id: "5EDD4B53D86FC736"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &5Augment: Factory"
+			tasks: [{
+				id: "1C3602DE23613667"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			title: "&l&5Augment Factory"
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2CDEB20702CDB119"
+				"70DBEE7D7D9B6A93"
+				"4ECBC458966859D7"
+			]
+			description: [
+				""
+				"Item permettant de relié tout les"
+				"&6Furnace&r au &9R&ea&ei&dn&bb&9o&aw &dF&cu&dr&en&da&bc&ce&r afin"
+				"que celui-ci puisse bénéficié d'un"
+				"&eboost&r de &5production d'énergie&r."
+				""
+			]
+			icon: "ironfurnaces:item_linker"
+			id: "2E41E7B311557721"
+			rewards: [{
+				id: "3DE5FE89E08E61C4"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			shape: "circle"
+			subtitle: "&aCrafter 1 x &9R&ea&ei&dn&bb&9o&aw &dL&ci&dn&ek&de&br"
+			tasks: [{
+				id: "590AA2F0F06851C5"
+				item: "ironfurnaces:item_linker"
+				type: "item"
+			}]
+			title: "&l&9R&ea&ei&dn&bb&9o&aw &dL&ci&dn&ek&de&br"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1E8C3BF31D2FCFA7"
+				"70DBEE7D7D9B6A93"
+				"05569C15D838EBDF"
+			]
+			icon: "ironfurnaces:item_copy"
+			id: "6D39D4517C69AEB0"
+			optional: true
+			rewards: [{
+				id: "4506E40FD41F725C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &5Furnace Settings Linker"
+			tasks: [{
+				id: "3F62AE6453BDB01A"
+				item: "ironfurnaces:item_copy"
+				type: "item"
+			}]
+			title: "&l&5Furnace Settings Linker"
+			x: -12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1E8C3BF31D2FCFA7"
+				"70DBEE7D7D9B6A93"
+				"2DFE4B161B190989"
+			]
+			icon: "ironfurnaces:item_spooky"
+			id: "1911F2A2A02860BA"
+			optional: true
+			rewards: [{
+				id: "047FCFFD3BDD0A53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &5Furnace Spooka-lator"
+			tasks: [{
+				id: "3B50EFFB8E8DF0ED"
+				item: "ironfurnaces:item_spooky"
+				type: "item"
+			}]
+			title: "&l&5Furnace Spooka-lator"
+			x: -12.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"1E8C3BF31D2FCFA7"
+				"70DBEE7D7D9B6A93"
+				"05569C15D838EBDF"
+				"38FE9362D766359C"
+				"0F42DDD08BAC82F1"
+			]
+			icon: "ironfurnaces:item_xmas"
+			id: "60593BBDAB666D4C"
+			optional: true
+			rewards: [{
+				id: "36AB8CEFE82DC0ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &5Furnace Wrapping Papers"
+			tasks: [{
+				id: "22ED873CC6051E94"
+				item: "ironfurnaces:item_xmas"
+				type: "item"
+			}]
+			title: "&l&5Furnace Wrapping Papers"
+			x: -14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"4B51D4979C940106"
+				"1E8C3BF31D2FCFA7"
+				"70DBEE7D7D9B6A93"
+				"5D547578AC5E04F4"
+				"2E01C852FA527D91"
+			]
+			icon: "ironfurnaces:heater"
+			id: "0EFB0E62F872D106"
+			optional: true
+			rewards: [{
+				id: "29988A5D32199B2F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &5Wireless Heat Transmitter"
+			tasks: [{
+				id: "7F3B5EFD414B80B7"
+				item: "ironfurnaces:heater"
+				type: "item"
+			}]
+			title: "&l&5Wireless Heat Transmitter"
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"322A37E139F6B4B9"
+				"5D547578AC5E04F4"
+				"2E01C852FA527D91"
+				"70DBEE7D7D9B6A93"
+			]
+			icon: "ironfurnaces:item_heater"
+			id: "4D2BF1DA54168021"
+			optional: true
+			rewards: [{
+				id: "0AF6F67CB1E9E822"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&aCrafter 1 x &5Wireless Heat Receiver"
+			tasks: [{
+				id: "389F1151D34339DE"
+				item: "ironfurnaces:item_heater"
+				type: "item"
+			}]
+			title: "&l&5Wireless Heat Receiver"
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"70DBEE7D7D9B6A93"
+				"10249EF2768FB1FA"
+				"453EBCDFDE59046C"
+				"2E41E7B311557721"
+			]
+			hide: true
+			id: "27287A4EB6D97BA6"
+			rewards: [{
+				id: "7319D9D9F9A45433"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "circle"
+			subtitle: "&aMettre en place l'énergie augmentée du &9R&ea&ei&dn&bb&9o&aw &dF&cu&dr&en&da&bc&ce"
+			tasks: [{
+				id: "2962FF57A1CF7F59"
+				title: "Production energie augmenté"
+				type: "checkmark"
+			}]
+			title: "&l&5Production Energie Augmentée"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["66FCE740899C2C10"]
+			description: [
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/interface.png width:145 height:55 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/config.png width:52 height:100 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/autointup.png width:25 height:25 align:1}"
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/autooutput.png width:25 height:25 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/paramface.png width:50 height:50 align:1}"
+				""
+				"{@pagebreak}"
+				""
+				"{image:kubejs:textures/ftbquests/ironfurnaces/controleredstone.png width:80 height:60 align:1}"
+			]
+			id: "1A1E0D204B15F0EB"
+			optional: true
+			rewards: [{
+				id: "056F69369CEA8403"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			subtitle: "&#F2D81AInformation"
+			tasks: [{
+				id: "4992BFD7E40C7441"
+				title: "&5Config &aet &5Augment"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+	]
+	title: "Iron Furnaces"
+}

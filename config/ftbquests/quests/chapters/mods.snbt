@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "mods"
+	group: "50A5D6D13960A314"
+	icon: "ftbquests:book"
+	id: "75EBD7F082F6D08F"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.836126629422719d
+		hover: [ ]
+		image: "kubejs:textures/ftbquests/mods/mods.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6E1194705458DD8A"
+				"1E8C3BF31D2FCFA7"
+			]
+			hide_dependency_lines: false
+			icon: "ironfurnaces:rainbow_coal"
+			id: "70DBEE7D7D9B6A93"
+			tasks: [{
+				id: "4A3A989BFB9AAA7F"
+				title: "Iron furnace"
+				type: "checkmark"
+			}]
+			title: "Iron furnaces"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"70DBEE7D7D9B6A93"
+				"27287A4EB6D97BA6"
+			]
+			id: "60B5B8A3BE7B99BE"
+			rewards: [{
+				id: "521C5B0BFEB6461A"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+			tasks: [{
+				id: "22983F870FFD9AA4"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			hide: true
+			icon: "ae2:drive"
+			id: "0175AB1DE8572215"
+			shape: "circle"
+			tasks: [{
+				id: "5FD8A917D5926DEB"
+				title: "Applied Energistics 2 et Add on"
+				type: "checkmark"
+			}]
+			title: "Applied Energistics 2"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0175AB1DE8572215"]
+			id: "544C89780E753249"
+			tasks: [{
+				id: "4D05FA26A117BE5D"
+				title: "Terminer Applied Energistics 2"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+	]
+	title: "Mods"
+}

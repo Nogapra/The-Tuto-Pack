@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "sophisticatedbackpacks"
+	group: "02778963C079B8E1"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "2D17EA71A97F323D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "kubejs:textures/ftbquests/sophisticatedbackpacks/sophisticatedbackpacks.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 13
+	quest_links: [ ]
+	quests: [ ]
+	title: "Sophisticated Backpacks"
+}

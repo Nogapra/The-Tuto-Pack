@@ -1,0 +1,223 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "cookingforblocheads"
+	group: "02778963C079B8E1"
+	icon: "cookingforblockheads:cooking_table"
+	id: "133D40DA6B547234"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.203007518796992d
+		hover: [ ]
+		image: "kubejs:textures/ftbquests/cookingforblocheads/cookingforblockheads.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "36AC396FE7C3A441"
+			tasks: [{
+				icon: "cookingforblockheads:white_kitchen_floor"
+				id: "22F5CB63261D2599"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:kitchen_floor"
+					}
+				}
+				title: "Kitchen Floor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			description: ["{image:kubejs:textures/ftbquests/cookingforblocheads/smeltingcookingforblocheadsnofilter.png width:100 height:67 align:1}"]
+			id: "2E6CD6C4092C267F"
+			tasks: [{
+				id: "18B89E1FA2B08D52"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E6CD6C4092C267F"]
+			description: [""]
+			id: "7BF42E2B7BF9D6A0"
+			tasks: [{
+				id: "39BB978797E4CE1C"
+				item: "cookingforblockheads:no_filter_edition"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E6CD6C4092C267F"]
+			id: "649A347AA3B8C453"
+			tasks: [{
+				id: "41D6772995E3142F"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["649A347AA3B8C453"]
+			id: "54AFE085627A3905"
+			tasks: [{
+				id: "138ED7A21F4E639D"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "3CCC157AB9CCF233"
+			tasks: [
+				{
+					id: "1ED336403BE8A240"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "0F8962D6F836C17C"
+					item: "cookingforblockheads:corner"
+					type: "item"
+				}
+				{
+					id: "25F84CC6D555DE1E"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+				{
+					id: "48D77878AFA26368"
+					item: "cookingforblockheads:hanging_corner"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "2C05A1BE9A71BE59"
+			tasks: [{
+				id: "48A254BC59582107"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "37E36AA0275096E2"
+			tasks: [{
+				id: "40009A171A590C10"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "774C61AAFDF35A20"
+			tasks: [{
+				id: "69FDBBAE0509E77A"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["37E36AA0275096E2"]
+			id: "58D30FE80901062A"
+			tasks: [{
+				id: "2E05C5E5F4B0B9F9"
+				item: "cookingforblockheads:heating_unit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["774C61AAFDF35A20"]
+			id: "511CEFD712CE276D"
+			tasks: [{
+				id: "3FDA22CDE9E99274"
+				item: "cookingforblockheads:ice_unit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["774C61AAFDF35A20"]
+			id: "41305A33CC01B8E3"
+			tasks: [{
+				id: "33A3AA790208A964"
+				item: "cookingforblockheads:preservation_chamber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "4298DA0357B6647F"
+			optional: true
+			shape: "gear"
+			tasks: [
+				{
+					id: "242F3457CB7D3A3A"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "650331C61DBBB51D"
+					item: "cookingforblockheads:spice_rack"
+					type: "item"
+				}
+				{
+					id: "286477D59A3DF321"
+					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "4C0AAF2774289709"
+			tasks: [{
+				id: "4D8B2EDA104643B5"
+				item: "cookingforblockheads:milk_jar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4C0AAF2774289709"]
+			id: "27F59F48B753D86B"
+			tasks: [{
+				id: "5BFC897AEF6A1363"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+	]
+	title: "Cooking for Blocheads"
+}

@@ -1,0 +1,3 @@
+#Whether or not to let players copy creative items with right click.
+AllowCloning = false
+

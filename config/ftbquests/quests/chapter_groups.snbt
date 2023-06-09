@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "50A5D6D13960A314", title: "Start" }
+		{ id: "02778963C079B8E1", title: "Tutoriels" }
+	]
+}

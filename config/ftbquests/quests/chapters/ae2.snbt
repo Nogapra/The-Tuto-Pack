@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ae2"
+	group: "02778963C079B8E1"
+	icon: "ae2:drive"
+	id: "2331DD1B474A9663"
+	images: [{
+		click: "https://appliedenergistics.github.io/"
+		corner: false
+		dev: false
+		height: 7.07469190140845d
+		hover: [
+			"Petite présentation"
+			"des possibilités du mod"
+			""
+			"Cliquez sur l'image pour avoir"
+			"le lien du wiki officiel"
+		]
+		image: "kubejs:textures/ftbquests/ae2/appliedenergistic2.png"
+		rotation: 0.0d
+		width: 14.401408450704224d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "50C4EFAE99DE7ED4"
+			tasks: [{
+				icon: "ae2:sky_stone_block"
+				id: "00E92A707409DC38"
+				structure: "ae2:meteorite"
+				title: "Trouver une Météorite"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			id: "6DD55303A0D2AE51"
+			tasks: [{
+				id: "62B504CB2FE7F59A"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			id: "6D0E4A56DE495003"
+			tasks: [{
+				id: "408027936A6A5FD1"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			id: "183E587C6233A087"
+			tasks: [{
+				id: "4A8C4CF197A3742D"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+	]
+	title: "Applied Energistic 2"
+}

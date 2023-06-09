@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "fluxnetworks"
+	group: "02778963C079B8E1"
+	icon: "fluxnetworks:flux_controller"
+	id: "1E6BBF7F02CC4002"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.912698412698413d
+		hover: [ ]
+		image: "kubejs:textures/ftbquests/fluxnetwork/fluxnetwork.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1F9A1DB873C34F6B"
+			tasks: [{
+				id: "6E3519BCDF8F730A"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "61F9D96A332CA2E2"
+			tasks: [{
+				id: "1EBA9313FCD581F9"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "78E567EF649490F6"
+			tasks: [{
+				id: "7748921D1738C795"
+				item: "fluxnetworks:flux_configurator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "26BC78605C67BCE1"
+			tasks: [{
+				id: "02CF66E09870E44C"
+				item: "fluxnetworks:flux_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "45E1F99B58676869"
+			tasks: [{
+				id: "7414BBA96CCFB3B0"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "71CFC8FA96C56813"
+			tasks: [{
+				id: "4EF9B50586446F03"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "1CA885019781EB31"
+			tasks: [{
+				id: "40A4B9468CB19F1D"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "0F9046CF31534916"
+			tasks: [{
+				id: "476E058C79A56EE6"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "76806A6801AAAB09"
+			tasks: [{
+				id: "0046B4864E242E0A"
+				item: "fluxnetworks:herculean_flux_storage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "198FB473707E11C8"
+			tasks: [{
+				id: "37D1EA0099FCC05B"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+	]
+	title: "Flux Networks"
+}

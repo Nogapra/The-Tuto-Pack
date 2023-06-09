@@ -1,0 +1,530 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "divers"
+	group: "02778963C079B8E1"
+	id: "47B728375B47EC77"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.8867924528301887d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/eccentrictome.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.6842837273991655d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/entangled.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.008460236886633d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/enderstorage.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.7369901547116737d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/naturescompass.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.2925d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/constructionwand.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.6424999999999996d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/experienceobelisk.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.695d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/explorerscompass.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.4612500000000002d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/morphotool.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.17d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/spiceoflifecarrotedition.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5374999999999996d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/structuralcomapss.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.7282051282051283d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/divers/pipez.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"74EA4AC71E98BD6A"
+				"14C3D69CA33721E2"
+				"75D0AC6DF4BA6904"
+			]
+			id: "3E61446FC8462E1F"
+			tasks: [{
+				id: "0711AC9482731F5B"
+				item: {
+					Count: 1b
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"75D0AC6DF4BA6904"
+				"5B39DF7B5DAA0E50"
+				"74EA4AC71E98BD6A"
+			]
+			icon: {
+				Count: 1b
+				id: "entangled:item"
+				tag: { }
+			}
+			id: "0AC43014B45ED7CD"
+			shape: "circle"
+			tasks: [{
+				id: "3CC16F8B9458FBAE"
+				item: {
+					Count: 1b
+					id: "entangled:item"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5C8FC3A0F4CED8A4"
+				"55A81FA5D05B13B9"
+			]
+			id: "03D74BCE2C93523B"
+			tasks: [{
+				id: "19A8B3F728DCDBE9"
+				item: {
+					Count: 1b
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			id: "09760225BBEC0702"
+			tasks: [{
+				icon: "enderstorage:ender_chest"
+				id: "1464B1AF55036B12"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "0124E2A003A94BAF"
+			tasks: [{
+				icon: "enderstorage:ender_tank"
+				id: "7814CD0F4A207B8A"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "33DFFFE2FEE18B5E"
+			tasks: [{
+				icon: "enderstorage:ender_pouch"
+				id: "65861B453B05CDA2"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "5863808A6BAADA9F"
+			tasks: [{
+				id: "67209EAC2F4E59B0"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			id: "5C4DE046C64BD81B"
+			tasks: [{
+				id: "1C07453BFAF13E38"
+				item: "morphtool:tool"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "4424239B01F96911"
+			tasks: [{
+				id: "3B954A42568F9CEB"
+				item: {
+					Count: 1b
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			id: "2B5AFE3C84F1EDB4"
+			tasks: [{
+				id: "646D6CB8977F4C5D"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "687CF4335E2B06DF"
+			tasks: [{
+				id: "45EB88B3AB98FB1F"
+				item: "structurecompass:structure_compass"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			id: "0D337AAFBC2FD67A"
+			tasks: [{
+				id: "7941CB547C2DD9D3"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "51E003CFB5317FC8"
+			tasks: [{
+				id: "1E0CA1A1C326753F"
+				item: {
+					Count: 1b
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			id: "30846CFD96E116A9"
+			tasks: [{
+				id: "4CA09233B06542F3"
+				item: {
+					Count: 1b
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			id: "20E3EFBAF2C983B4"
+			tasks: [{
+				id: "740A077643AD7413"
+				item: {
+					Count: 1b
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			id: "7ED1FEE45AF46008"
+			tasks: [{
+				id: "1AD71CA1C4387A30"
+				item: {
+					Count: 1b
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			id: "7F7A429A89EA581B"
+			tasks: [{
+				id: "0824E0C8CF0E41D9"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "1F1367AF17823B6E"
+			tasks: [{
+				id: "77943F2B9CF9C9C7"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			id: "4154EFABF4BEEED9"
+			tasks: [{
+				id: "03572CC406E68739"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			id: "65BA9A97E6F95C5A"
+			tasks: [{
+				id: "457CDFEF156785C0"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			id: "4A7ABE7B8EDF399C"
+			tasks: [{
+				id: "3625D483B43A89FD"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			id: "44CD283E77BB1388"
+			tasks: [{
+				id: "06EEDE76676FBB89"
+				item: "pipez:gas_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"4A7ABE7B8EDF399C"
+				"4154EFABF4BEEED9"
+				"65BA9A97E6F95C5A"
+			]
+			id: "577E2F563DBB544B"
+			tasks: [{
+				id: "3AB5F5A3F7F98CEC"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "24BE2DF185328BD6"
+			tasks: [{
+				id: "7563FB39013C2350"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["24BE2DF185328BD6"]
+			id: "5984AD78B630FEA6"
+			tasks: [{
+				id: "0A35BC52C0820F0F"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5984AD78B630FEA6"]
+			id: "4FA07FE17A11285C"
+			tasks: [{
+				id: "1B4B3A28849A012A"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4FA07FE17A11285C"]
+			id: "5F28DE17655FC56E"
+			tasks: [{
+				id: "2C3C295CA213E15B"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			id: "6E68036B1576082B"
+			tasks: [{
+				id: "52B47375189AC8F0"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 17.0d
+		}
+		{
+			id: "614CBF1E2E41A008"
+			tasks: [{
+				id: "52BE563C5A3F372F"
+				item: "pipez:filter_destination_tool"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			id: "511DB373E4ECB3A0"
+			tasks: [{
+				id: "5CF13467CEF45E23"
+				item: "pipez:infinity_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+	]
+	title: "Divers"
+}

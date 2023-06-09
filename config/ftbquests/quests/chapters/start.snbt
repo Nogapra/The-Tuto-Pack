@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "start"
+	group: "50A5D6D13960A314"
+	id: "73EA7DB7FD68F541"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 4.398249452954048d
+		hover: [ ]
+		image: "kubejs:textures/ftbquests/start/start.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			""
+			"Bonjour,"
+			"Ce modpack est destiné à l'aprentissage de différents mods au travers de quêtes."
+			""
+			"Tout les mods seront configurés avec les paramètres par défaut, sauf exception mais dans ce cas le paramètre par défaut sera notifié dans la quête."
+			""
+			"Tenez compte que ce modpack est en 1.19.2 donc toute les explications données ne seront valable que pour les versions des mods en 1.19.2, suivant les choix des dévellopeurs des différents mods, certaines explications ne seront pas valable pour des versions inférieures ou supérieures à la version 1.19.2 des mods"
+		]
+		id: "61CF0C93B3282A5B"
+		min_width: 400
+		shape: "octagon"
+		subtitle: "&aBienvenue"
+		tasks: [{
+			id: "1079566826D6A76E"
+			title: "&5Bienvenue"
+			type: "checkmark"
+		}]
+		title: "&5Bienvenue"
+		x: 0.0d
+		y: 2.0d
+	}]
+	title: "Start"
+}
