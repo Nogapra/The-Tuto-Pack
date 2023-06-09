@@ -1,6 +1,6 @@
 {
-	"x": -50,
-	"y": 30,
+	"x": -125,
+	"y": 115,
 	"width": 120,
 	"height": 30,
 	"langKey": "fml.menu.mods",
@@ -9,7 +9,7 @@
 	"u": 0,
 	"v": 0,
 	"hoverU": 0,
-	"hoverV": 30,
+	"hoverV": 0,
 	"texWidth": 120,
 	"texHeight": 60,
 	"texture": "thetutopack:textures/mods.png",
