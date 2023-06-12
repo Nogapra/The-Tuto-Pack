@@ -19,6 +19,41 @@
 	}]
 	order_index: 13
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "4D1162FD677489B7"
+			tasks: [{
+				icon: "sophisticatedbackpacks:backpack"
+				id: "37CE7F07E32EC91A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:backpacks"
+					}
+				}
+				title: "Backpacks"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "494469B86D825C5F"
+			tasks: [{
+				id: "5E4AAAEB5D4894DE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:iron_backpacks"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+	]
 	title: "Sophisticated Backpacks"
 }

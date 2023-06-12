@@ -130,8 +130,8 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -16.5d
+			x: -16.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7FE46D6BCC04B79E"]
@@ -279,8 +279,6 @@
 		}
 		{
 			dependencies: ["0F006A76F26567CB"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "53B15C80597F976A"
 			tasks: [{
 				id: "7FCCCF2B69F6FD4E"
@@ -316,9 +314,10 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["0F006A76F26567CB"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"0F006A76F26567CB"
+				"1DA11DFD5E1AD5B3"
+			]
 			id: "6E486CF3BBA28589"
 			tasks: [{
 				id: "322C22882CCAF42F"
@@ -474,7 +473,7 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["109EF8C0B9C75E88"]
+			dependencies: ["0EA67F5513592CE8"]
 			id: "3A109C69597D3FC0"
 			tasks: [{
 				id: "44DA78CDBFABCF52"
@@ -1342,10 +1341,9 @@
 			dependencies: [
 				"09598962E7BF6182"
 				"733A385FEB092FDE"
+				"0F006A76F26567CB"
 			]
 			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "42F368195F9986CD"
 			tasks: [{
 				entity: "minecraft:skeleton"
@@ -1359,10 +1357,11 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "7C572FA6D9F177E5"
 			tasks: [{
 				entity: "minecraft:squid"
@@ -1381,8 +1380,6 @@
 				"09598962E7BF6182"
 				"733A385FEB092FDE"
 			]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "3568B23B919178BA"
 			tasks: [{
 				entity: "minecraft:wither"
@@ -1400,7 +1397,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -14.0d
+			x: -13.0d
 			y: -4.0d
 		}
 		{
@@ -1420,30 +1417,20 @@
 				"5440DB22BFC9303B"
 				"09598962E7BF6182"
 			]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "39B80FD8AF160A8F"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
-				icon: {
-					Count: 1b
-					id: "hostilenetworks:data_model"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:wither_skeleton"
-						}
-					}
-				}
+				icon: "minecraft:wither_skeleton_spawn_egg"
 				id: "66EE206442E98ACD"
 				title: "Kill Wither Skeleton"
 				type: "kill"
 				value: 3L
 			}]
-			x: -15.0d
+			x: -14.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["109EF8C0B9C75E88"]
+			dependencies: ["0EA67F5513592CE8"]
 			id: "5440DB22BFC9303B"
 			tasks: [{
 				icon: "minecraft:nether_bricks"
@@ -1500,9 +1487,10 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["0F006A76F26567CB"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"0F006A76F26567CB"
+				"18EB79D007A95609"
+			]
 			id: "63F97AB1D4979E9D"
 			tasks: [{
 				id: "2022385D44B64454"
@@ -1536,8 +1524,8 @@
 		}
 		{
 			dependencies: [
-				"109EF8C0B9C75E88"
 				"4174A875FA4AAAE0"
+				"0EA67F5513592CE8"
 			]
 			id: "5ED07ECB2C4FE5C0"
 			tasks: [{
@@ -1547,19 +1535,6 @@
 			}]
 			x: 8.5d
 			y: -2.0d
-		}
-		{
-			dependencies: ["74EA4AC71E98BD6A"]
-			id: "109EF8C0B9C75E88"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				icon: "minecraft:netherrack"
-				id: "799C44D505743C64"
-				title: "Visit Nether"
-				type: "dimension"
-			}]
-			x: -6.0d
-			y: 6.5d
 		}
 		{
 			dependencies: ["3568B23B919178BA"]
@@ -1692,6 +1667,7 @@
 				"2EFC6FF4D233AC73"
 				"6E89A5774D7CC938"
 				"0920BE16A60D1E52"
+				"18BC3EEE6EE60D2E"
 			]
 			id: "09598962E7BF6182"
 			tasks: [{
@@ -1746,9 +1722,10 @@
 			y: -30.5d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			id: "5530C0D9ED61606D"
 			tasks: [{
 				entity: "minecraft:spider"
@@ -1762,9 +1739,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			id: "77C5D630D95EA19D"
 			tasks: [{
 				entity: "minecraft:cat"
@@ -1778,9 +1756,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			id: "1B55B44118A7FB5A"
 			tasks: [{
 				entity: "minecraft:cave_spider"
@@ -1795,11 +1774,9 @@
 		}
 		{
 			dependencies: [
-				"109EF8C0B9C75E88"
 				"09598962E7BF6182"
+				"0EA67F5513592CE8"
 			]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "1F0B3ADDDD8F3353"
 			tasks: [{
 				entity: "minecraft:strider"
@@ -2412,8 +2389,8 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -18.5d
+			x: -16.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0B848F001D46E1BE"]
@@ -2423,8 +2400,8 @@
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -17.5d
+			x: -15.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["30397340408DD069"]
@@ -2434,13 +2411,14 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -18.5d
+			x: -15.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			id: "273DF9BC8BCB361B"
 			tasks: [{
 				entity: "minecraft:enderman"
@@ -2458,8 +2436,6 @@
 				"5440DB22BFC9303B"
 				"09598962E7BF6182"
 			]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "30397340408DD069"
 			tasks: [{
 				entity: "minecraft:blaze"
@@ -2469,7 +2445,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -17.0d
+			x: -15.0d
 			y: -4.0d
 		}
 		{
@@ -2538,9 +2514,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			id: "0F0E2F51B7A5244F"
 			tasks: [{
 				entity: "minecraft:cow"
@@ -2554,9 +2531,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			id: "5E0B94F44F1F8156"
 			tasks: [{
 				entity: "minecraft:mooshroom"
@@ -2570,9 +2548,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			id: "447F385221630437"
 			tasks: [{
 				entity: "minecraft:horse"
@@ -2586,9 +2565,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			id: "57A5F272CB74E5CA"
 			tasks: [{
 				entity: "minecraft:mule"
@@ -2602,9 +2582,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			id: "5D234871B02AB334"
 			tasks: [{
 				entity: "minecraft:donkey"
@@ -2618,9 +2599,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["09598962E7BF6182"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			dependencies: [
+				"09598962E7BF6182"
+				"0F006A76F26567CB"
+			]
 			id: "321D256D588D28C1"
 			tasks: [{
 				entity: "minecraft:llama"
@@ -2635,11 +2617,9 @@
 		}
 		{
 			dependencies: [
-				"109EF8C0B9C75E88"
 				"09598962E7BF6182"
+				"0EA67F5513592CE8"
 			]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "76B5BBEAB2CE3FF9"
 			tasks: [{
 				entity: "minecraft:hoglin"
@@ -2653,6 +2633,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["1A9E03125D886E5F"]
 			id: "630E0216211A5EEC"
 			tasks: [{
 				id: "09242B3DA172332D"
@@ -2663,6 +2644,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["06A2D59E18FBE5BC"]
 			id: "64A182CF80546A01"
 			tasks: [{
 				id: "77F342FC369411D1"
@@ -2673,6 +2655,11 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"5CD3D84F7FECD1D5"
+				"298CA1C3DD05777C"
+				"18BC3EEE6EE60D2E"
+			]
 			id: "1D600A758006DD2A"
 			tasks: [{
 				id: "15A8551368E42C2C"
@@ -2848,6 +2835,10 @@
 			y: 7.5d
 		}
 		{
+			dependencies: [
+				"0F006A76F26567CB"
+				"2C5096D49AE22CFA"
+			]
 			id: "2A3B13E98C5C3EFE"
 			tasks: [{
 				id: "4FDDABBF9B5F1E53"
@@ -2858,6 +2849,7 @@
 			y: -14.5d
 		}
 		{
+			dependencies: ["0F006A76F26567CB"]
 			id: "2C5096D49AE22CFA"
 			tasks: [{
 				id: "2C4C98F9D9F70AC6"
@@ -2868,6 +2860,7 @@
 			y: -15.5d
 		}
 		{
+			dependencies: ["0F006A76F26567CB"]
 			id: "1DA11DFD5E1AD5B3"
 			tasks: [{
 				id: "7B26085D7B964AD6"
@@ -2878,6 +2871,7 @@
 			y: -15.5d
 		}
 		{
+			dependencies: ["0F006A76F26567CB"]
 			id: "18EB79D007A95609"
 			tasks: [{
 				id: "1FDF28C613D014A0"
@@ -2888,6 +2882,7 @@
 			y: -15.5d
 		}
 		{
+			dependencies: ["09B4816BE08EBAB5"]
 			id: "5228B1CB33E4F9F4"
 			tasks: [{
 				id: "759774A3923E53AD"
@@ -2895,9 +2890,10 @@
 				type: "item"
 			}]
 			x: 23.0d
-			y: -14.5d
+			y: -13.5d
 		}
 		{
+			dependencies: ["0F006A76F26567CB"]
 			id: "44DF056AE8D6AD06"
 			tasks: [{
 				id: "73AB73B3D1CDB559"
@@ -2908,6 +2904,10 @@
 			y: -15.5d
 		}
 		{
+			dependencies: [
+				"44DF056AE8D6AD06"
+				"0F006A76F26567CB"
+			]
 			id: "09B4816BE08EBAB5"
 			tasks: [{
 				id: "190CA57B8969AF09"
@@ -2915,9 +2915,10 @@
 				type: "item"
 			}]
 			x: 23.0d
-			y: -13.5d
+			y: -14.5d
 		}
 		{
+			dependencies: ["0F006A76F26567CB"]
 			id: "038AC741E31BE469"
 			tasks: [{
 				id: "74B598AA19990923"
@@ -2928,6 +2929,7 @@
 			y: -14.5d
 		}
 		{
+			dependencies: ["0F006A76F26567CB"]
 			id: "4979DCF90BA065D1"
 			tasks: [{
 				id: "679C66B0D2580049"
@@ -2949,6 +2951,7 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["0F006A76F26567CB"]
 			id: "1347455C661536BF"
 			tasks: [{
 				id: "060A6BB36C46D71F"
@@ -2998,6 +3001,7 @@
 			y: -12.0d
 		}
 		{
+			dependencies: ["0EA67F5513592CE8"]
 			id: "39BF9FED255ABA23"
 			tasks: [{
 				id: "02A15801D83EB1A6"
@@ -3008,29 +3012,217 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["6F51D13F79CBB640"]
-			id: "127AD622633919AF"
+			dependencies: ["46F9DDE5EE87E6C5"]
+			id: "27FD66A3B7B24B07"
 			tasks: [{
-				id: "0DD263DDDBA55929"
-				item: "minecraft:dragon_breath"
-				type: "item"
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "650E809717BFA1E3"
+				type: "advancement"
 			}]
-			x: -19.0d
-			y: -13.5d
+			x: -16.0d
+			y: -9.0d
 		}
 		{
-			icon: "minecraft:end_portal_frame"
-			id: "6F51D13F79CBB640"
+			dependencies: ["3EC623430882FB27"]
+			id: "5350610780277215"
 			tasks: [{
-				dimension: "minecraft:the_end"
-				icon: "minecraft:end_portal_frame"
-				id: "48DE5AA8CA4F50B0"
-				title: "End"
-				type: "dimension"
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "76F74540AB3F7CE0"
+				type: "advancement"
 			}]
-			title: "Visit The End"
-			x: -19.0d
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5350610780277215"]
+			id: "46F9DDE5EE87E6C5"
+			tasks: [{
+				advancement: "minecraft:end/root"
+				criterion: ""
+				id: "256A659189C8FE2F"
+				type: "advancement"
+			}]
+			x: -16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["46F9DDE5EE87E6C5"]
+			id: "456BE5D26BDA26F6"
+			tasks: [{
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+				id: "5D33C3D13BDB89E8"
+				type: "advancement"
+			}]
+			x: -15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["27FD66A3B7B24B07"]
+			id: "57CDAFF9D566C4A3"
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "00A16D153A3583C1"
+				type: "advancement"
+			}]
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"6B2CD92FB18C1B22"
+				"27FD66A3B7B24B07"
+			]
+			id: "44F667E6A6D4ECB0"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "425FBC9B53A9E91B"
+				type: "advancement"
+			}]
+			x: -13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3EC623430882FB27"
+				"0DAAA25E911D114C"
+				"41D6A9908115F916"
+			]
+			id: "6B2CD92FB18C1B22"
+			tasks: [{
+				id: "197D41670C7EFF7B"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"09598962E7BF6182"
+				"0EA67F5513592CE8"
+			]
+			id: "01465D07DF84AC88"
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "247598718464E388"
+				title: "Kill Ghast"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01465D07DF84AC88"]
+			id: "0DAAA25E911D114C"
+			tasks: [{
+				id: "06E115CFC622BB95"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"27FD66A3B7B24B07"
+				"75D0AC6DF4BA6904"
+			]
+			id: "736A9A156E1E32BE"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "62D794789E549E53"
+				type: "advancement"
+			}]
+			x: -18.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["736A9A156E1E32BE"]
+			id: "3D1CE6C52CB2549E"
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "52D1CC295DEECCD2"
+				type: "advancement"
+			}]
+			x: -18.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3D1CE6C52CB2549E"]
+			id: "03D08B13256454BA"
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				id: "6491D596810784CF"
+				type: "advancement"
+			}]
+			x: -18.0d
 			y: -11.0d
+		}
+		{
+			dependencies: ["74EA4AC71E98BD6A"]
+			id: "0EA67F5513592CE8"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "7612BAD056963DF4"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0F006A76F26567CB"]
+			id: "18BC3EEE6EE60D2E"
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "2680D98151D1B069"
+				title: "Kill Sheep"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F77C8923BAD0F44"]
+			id: "298CA1C3DD05777C"
+			tasks: [{
+				checkItem: false
+				entity: "minecraft:sheep"
+				id: "4803960D6830F07C"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			x: 13.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["3A109C69597D3FC0"]
+			id: "1F64782C6F7F49B6"
+			tasks: [{
+				id: "64F9D36B210D2C2B"
+				item: "minecraft:quartz_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.0d
 		}
 	]
 	title: "Minecraft"

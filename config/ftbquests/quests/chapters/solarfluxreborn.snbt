@@ -37,7 +37,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["7DBDE4A2AF1E6FA0"]
+			dependencies: [
+				"7DBDE4A2AF1E6FA0"
+				"06A2D59E18FBE5BC"
+				"41D6A9908115F916"
+			]
 			id: "54C62F04815FB08E"
 			tasks: [{
 				id: "21422F390E1271B9"
@@ -133,7 +137,7 @@
 				"2803D76BEE183026"
 				"16E14F11B0377137"
 				"7DBDE4A2AF1E6FA0"
-				"127AD622633919AF"
+				"456BE5D26BDA26F6"
 			]
 			id: "6AC083BC13511884"
 			tasks: [{
@@ -149,6 +153,7 @@
 				"6AC083BC13511884"
 				"73BE12AF7EEDE376"
 				"7DBDE4A2AF1E6FA0"
+				"57CDAFF9D566C4A3"
 			]
 			id: "3BC0F2714E0D1A25"
 			tasks: [{
@@ -163,6 +168,8 @@
 			dependencies: [
 				"54C62F04815FB08E"
 				"7DBDE4A2AF1E6FA0"
+				"174789A92F04B80A"
+				"41D6A9908115F916"
 			]
 			id: "3308C1015B97E55F"
 			tasks: [{
@@ -178,6 +185,8 @@
 				"3308C1015B97E55F"
 				"54C62F04815FB08E"
 				"7DBDE4A2AF1E6FA0"
+				"174789A92F04B80A"
+				"1347455C661536BF"
 			]
 			id: "49699C5400A7409F"
 			tasks: [{
@@ -192,6 +201,9 @@
 			dependencies: [
 				"49699C5400A7409F"
 				"7DBDE4A2AF1E6FA0"
+				"41D6A9908115F916"
+				"74EA4AC71E98BD6A"
+				"39BF9FED255ABA23"
 			]
 			id: "2C301D81EF8E7556"
 			tasks: [{
@@ -207,6 +219,9 @@
 				"2C301D81EF8E7556"
 				"08943A4AC0FD5A88"
 				"7DBDE4A2AF1E6FA0"
+				"5B39DF7B5DAA0E50"
+				"1F64782C6F7F49B6"
+				"39BF9FED255ABA23"
 			]
 			id: "5E57D5C9C6A927AC"
 			tasks: [{
@@ -222,6 +237,9 @@
 				"73DB33C6B0F1B1C6"
 				"5E57D5C9C6A927AC"
 				"7DBDE4A2AF1E6FA0"
+				"1F64782C6F7F49B6"
+				"36F01D7C8160CE41"
+				"03EAA923E833373F"
 			]
 			id: "16E14F11B0377137"
 			tasks: [{
@@ -237,6 +255,9 @@
 				"16E14F11B0377137"
 				"3D6B8D587042FE1F"
 				"7DBDE4A2AF1E6FA0"
+				"1F64782C6F7F49B6"
+				"70C384D789B2C9EF"
+				"03EAA923E833373F"
 			]
 			id: "73BE12AF7EEDE376"
 			tasks: [{
@@ -281,7 +302,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["7DBDE4A2AF1E6FA0"]
+			dependencies: [
+				"7DBDE4A2AF1E6FA0"
+				"737800F99B1D8D7A"
+				"54C62F04815FB08E"
+			]
 			id: "540A325F6E87E6B1"
 			tasks: [{
 				id: "3E1C31D24C94D9F4"
@@ -311,6 +336,8 @@
 			dependencies: [
 				"540A325F6E87E6B1"
 				"7DBDE4A2AF1E6FA0"
+				"1A9E03125D886E5F"
+				"322A37E139F6B4B9"
 			]
 			id: "3D28064B75AB3D31"
 			tasks: [{
@@ -325,6 +352,8 @@
 			dependencies: [
 				"540A325F6E87E6B1"
 				"7DBDE4A2AF1E6FA0"
+				"36F01D7C8160CE41"
+				"4B51D4979C940106"
 			]
 			id: "587319CCF9B88086"
 			tasks: [{
@@ -339,6 +368,9 @@
 			dependencies: [
 				"540A325F6E87E6B1"
 				"7DBDE4A2AF1E6FA0"
+				"5EA6E18347A52DE5"
+				"06A2D59E18FBE5BC"
+				"322A37E139F6B4B9"
 			]
 			id: "349BAAE329491D65"
 			tasks: [{
@@ -353,6 +385,8 @@
 			dependencies: [
 				"540A325F6E87E6B1"
 				"7DBDE4A2AF1E6FA0"
+				"3EC623430882FB27"
+				"39BF9FED255ABA23"
 			]
 			id: "488940B20DE02B2F"
 			tasks: [{
@@ -367,6 +401,8 @@
 			dependencies: [
 				"488940B20DE02B2F"
 				"7DBDE4A2AF1E6FA0"
+				"75D0AC6DF4BA6904"
+				"4B51D4979C940106"
 			]
 			id: "5F0303A0C759F21E"
 			tasks: [{
@@ -382,6 +418,8 @@
 				"540A325F6E87E6B1"
 				"08943A4AC0FD5A88"
 				"7DBDE4A2AF1E6FA0"
+				"7FD8C0BD3671450E"
+				"1E8C3BF31D2FCFA7"
 			]
 			id: "428CE26572A4135F"
 			tasks: [{
@@ -394,15 +432,30 @@
 		}
 		{
 			dependencies: [
-				"540A325F6E87E6B1"
 				"7DBDE4A2AF1E6FA0"
+				"540A325F6E87E6B1"
+				"6AAC9CE905BE70A2"
+			]
+			description: [
+				""
+				"Upgrade qui permet d'envoyer l'energie produite par le panneau solaire directement dans le Réseaux Applied Energistics 2 au travers du ME Grid"
+				""
+				"Ce composant est présent car le mod Applied Enegestics 2 est présent dans le Mod Pack"
+				""
 			]
 			id: "4BE8F68515C3BA9D"
+			rewards: [{
+				id: "66CC059F29833E26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "&aCraftez un AEU Energy Upgrade"
 			tasks: [{
 				id: "0E89319AF0876ED6"
 				item: "solarflux:ae2/energy_upgrade"
 				type: "item"
 			}]
+			title: "&5AEU Energy Upgrade"
 			x: 1.0d
 			y: 4.5d
 		}

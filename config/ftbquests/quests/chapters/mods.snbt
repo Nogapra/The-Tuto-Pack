@@ -106,8 +106,27 @@
 			y: -3.5d
 		}
 		{
+			description: [
+				""
+				"Mod permettant de généré de des RF (énergie électrique) grâce à des panneaux solaires"
+				""
+				"Ce mod a une compatibilité native avec d'autre mod."
+				""
+				"- &6Avaritia"
+				"  &7Mod original uniquement disponible en version &a1.7.10&7,"
+				"  &7et il existe plusieurs versions du mod &cNON OFFICIEL"
+				"  &7pour les versions de minecraft plus récente."
+				"- &6Draconic Evolution"
+				"  &7Mod Original disponible en version &a1.18.2 &7maximum"
+				"  &7à ce jour."
+				"- &6Twilight Forest"
+				"- &6Applied Energistics 2"
+				""
+				"Si ces mods sont présents dans un Mod Pack, il y a aura des composants du mod supplémentaire aportant de nouvelles fonctions suivant les choix de l'équipe de dévellopement du Mod Pack."
+			]
 			icon: "solarflux:sp_8"
 			id: "7DBDE4A2AF1E6FA0"
+			min_width: 300
 			tasks: [{
 				id: "20A9D01D2F76637C"
 				title: "Solar Flux Reborn"

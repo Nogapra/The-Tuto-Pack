@@ -24,4 +24,11 @@ ServerEvents.tags("item", event => {
     // Hostile Neural Network
     event.add("forge:data_model", "hostilenetworks:data_model")
     event.add("forge:prediction", "hostilenetworks:prediction")
+
+    // Sophiticated Backpack
+    event.add("forge:backpacks", "sophisticatedbackpacks:backpack")
+    event.add("forge:iron_backpacks", "sophisticatedbackpacks:iron_backpack")
+    event.add("forge:gold_backpacks", "sophisticatedbackpacks:gold_backpack")
+    event.add("forge:diamond_backpacks", "sophisticatedbackpacks:diamond_backpack")
+    event.add("forge:netherite_backpacks", "sophisticatedbackpacks:netherite_backpack")
 })
