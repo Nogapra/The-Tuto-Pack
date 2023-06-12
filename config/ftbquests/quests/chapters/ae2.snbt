@@ -68,6 +68,17 @@
 			x: -9.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["4BE8F68515C3BA9D"]
+			id: "6AAC9CE905BE70A2"
+			tasks: [{
+				id: "5C722FCE52193540"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
 	]
 	title: "Applied Energistic 2"
 }

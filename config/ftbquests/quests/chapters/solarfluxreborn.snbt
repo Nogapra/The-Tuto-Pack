@@ -19,6 +19,393 @@
 	}]
 	order_index: 12
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"54C62F04815FB08E"
+				"7DBDE4A2AF1E6FA0"
+				"2EFC6FF4D233AC73"
+				"322A37E139F6B4B9"
+			]
+			id: "5A155B74404AD305"
+			tasks: [{
+				id: "5BB4E1CB05818517"
+				item: "solarflux:sp_1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7DBDE4A2AF1E6FA0"]
+			id: "54C62F04815FB08E"
+			tasks: [{
+				id: "21422F390E1271B9"
+				item: "solarflux:mirror"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5A155B74404AD305"
+				"7DBDE4A2AF1E6FA0"
+				"5EA6E18347A52DE5"
+			]
+			id: "232AB5C99A5FC5BB"
+			tasks: [{
+				id: "234F37D5D8344BBF"
+				item: "solarflux:sp_2"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"232AB5C99A5FC5BB"
+				"3308C1015B97E55F"
+				"7DBDE4A2AF1E6FA0"
+				"22010F498E504962"
+				"5AEFA47F506BF554"
+			]
+			id: "633A6D16D62E5E10"
+			tasks: [{
+				id: "1D9EE3AC00A2B49D"
+				item: "solarflux:sp_3"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"633A6D16D62E5E10"
+				"49699C5400A7409F"
+				"7DBDE4A2AF1E6FA0"
+				"405591E380AD1831"
+				"22010F498E504962"
+			]
+			id: "494A5D9D8195BA6B"
+			tasks: [{
+				id: "057C8F9F85E0506C"
+				item: "solarflux:sp_4"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"494A5D9D8195BA6B"
+				"2C301D81EF8E7556"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "0A6ED8CAF8939F68"
+			tasks: [{
+				id: "499D972F65473604"
+				item: "solarflux:sp_5"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0A6ED8CAF8939F68"
+				"5E57D5C9C6A927AC"
+				"7DBDE4A2AF1E6FA0"
+				"2A75D1D0E09F07D3"
+				"36F01D7C8160CE41"
+			]
+			id: "2803D76BEE183026"
+			tasks: [{
+				id: "43096956454BBB8B"
+				item: "solarflux:sp_6"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2803D76BEE183026"
+				"16E14F11B0377137"
+				"7DBDE4A2AF1E6FA0"
+				"127AD622633919AF"
+			]
+			id: "6AC083BC13511884"
+			tasks: [{
+				id: "31A79C31295E2C63"
+				item: "solarflux:sp_7"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"6AC083BC13511884"
+				"73BE12AF7EEDE376"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "3BC0F2714E0D1A25"
+			tasks: [{
+				id: "286CC9315F35B6CD"
+				item: "solarflux:sp_8"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"54C62F04815FB08E"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "3308C1015B97E55F"
+			tasks: [{
+				id: "3E447ED8EA1819DB"
+				item: "solarflux:photovoltaic_cell_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"3308C1015B97E55F"
+				"54C62F04815FB08E"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "49699C5400A7409F"
+			tasks: [{
+				id: "34D3DDEC33F34EB4"
+				item: "solarflux:photovoltaic_cell_2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"49699C5400A7409F"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "2C301D81EF8E7556"
+			tasks: [{
+				id: "6D3BC9B76B43F1A5"
+				item: "solarflux:photovoltaic_cell_3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2C301D81EF8E7556"
+				"08943A4AC0FD5A88"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "5E57D5C9C6A927AC"
+			tasks: [{
+				id: "731162E9EE9AD17A"
+				item: "solarflux:photovoltaic_cell_4"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"73DB33C6B0F1B1C6"
+				"5E57D5C9C6A927AC"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "16E14F11B0377137"
+			tasks: [{
+				id: "271189CB7086BDA1"
+				item: "solarflux:photovoltaic_cell_5"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"16E14F11B0377137"
+				"3D6B8D587042FE1F"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "73BE12AF7EEDE376"
+			tasks: [{
+				id: "4CDE2B5F6CA391A3"
+				item: "solarflux:photovoltaic_cell_6"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DBDE4A2AF1E6FA0"]
+			id: "08943A4AC0FD5A88"
+			tasks: [{
+				id: "317A3A45B8E23063"
+				item: "solarflux:blazing_coating"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7DBDE4A2AF1E6FA0"]
+			id: "73DB33C6B0F1B1C6"
+			tasks: [{
+				id: "67C813DC6061AA79"
+				item: "solarflux:emerald_glass"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7DBDE4A2AF1E6FA0"]
+			id: "3D6B8D587042FE1F"
+			tasks: [{
+				id: "47AD6D12D5524AF2"
+				item: "solarflux:ender_glass"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7DBDE4A2AF1E6FA0"]
+			id: "540A325F6E87E6B1"
+			tasks: [{
+				id: "3E1C31D24C94D9F4"
+				item: "solarflux:blank_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3308C1015B97E55F"
+				"540A325F6E87E6B1"
+				"54C62F04815FB08E"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "76F54CF703EF2A8E"
+			tasks: [{
+				id: "521575C9090A8B03"
+				item: "solarflux:efficiency_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"540A325F6E87E6B1"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "3D28064B75AB3D31"
+			tasks: [{
+				id: "6CDA154A46FEACAB"
+				item: "solarflux:transfer_rate_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"540A325F6E87E6B1"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "587319CCF9B88086"
+			tasks: [{
+				id: "1C674818841155C2"
+				item: "solarflux:capacity_upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"540A325F6E87E6B1"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "349BAAE329491D65"
+			tasks: [{
+				id: "6A36002E3286D6DF"
+				item: "solarflux:traversal_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"540A325F6E87E6B1"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "488940B20DE02B2F"
+			tasks: [{
+				id: "78350F477767B0F5"
+				item: "solarflux:dispersive_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"488940B20DE02B2F"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "5F0303A0C759F21E"
+			tasks: [{
+				id: "386E7E9A9913A847"
+				item: "solarflux:block_charging_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"540A325F6E87E6B1"
+				"08943A4AC0FD5A88"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "428CE26572A4135F"
+			tasks: [{
+				id: "30A3CE1F97A6040D"
+				item: "solarflux:furnace_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"540A325F6E87E6B1"
+				"7DBDE4A2AF1E6FA0"
+			]
+			id: "4BE8F68515C3BA9D"
+			tasks: [{
+				id: "0E89319AF0876ED6"
+				item: "solarflux:ae2/energy_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+	]
 	title: "Solar Flux Reborn"
 }

@@ -1,14 +1,14 @@
 {
 	"x": 65,
-	"y": 155,
-	"width": 20,
-	"height": 20,
+	"y": 150,
+	"width": 30,
+	"height": 30,
 	"u": 0,
 	"v": 0,
 	"hoverU": 0,
 	"hoverV": 0,
-	"texWidth": 20,
-	"texHeight": 40,
+	"texWidth": 30,
+	"texHeight": 60,
 	"texture": "thetutopack:textures/reload.png",
 	"action": "RELOAD"
 }

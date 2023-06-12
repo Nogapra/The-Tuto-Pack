@@ -19,6 +19,179 @@
 	}]
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"74EA4AC71E98BD6A"
+				"5AEFA47F506BF554"
+				"2061847049566C05"
+				"322A37E139F6B4B9"
+				"6DF8116159EFCDAE"
+			]
+			id: "52AAC07BA26E03A7"
+			tasks: [{
+				id: "6AE7232D77ED5802"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"52AAC07BA26E03A7"
+				"6DF8116159EFCDAE"
+			]
+			id: "14E3276C5C0F6392"
+			tasks: [{
+				id: "19693B8563616137"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"06A2D59E18FBE5BC"
+				"1A9E03125D886E5F"
+				"1347455C661536BF"
+				"2061847049566C05"
+				"6DF8116159EFCDAE"
+			]
+			id: "7245094C51AFCAD8"
+			tasks: [{
+				id: "59FEE6C342C4B3E2"
+				item: "hostilenetworks:empty_prediction"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2061847049566C05"
+				"75D0AC6DF4BA6904"
+				"74EA4AC71E98BD6A"
+				"174789A92F04B80A"
+				"2E01C852FA527D91"
+				"6DF8116159EFCDAE"
+			]
+			id: "653D311A97DFD4DA"
+			tasks: [{
+				id: "5B69D744D2D9460C"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4ECBC458966859D7"
+				"5B39DF7B5DAA0E50"
+				"74EA4AC71E98BD6A"
+				"1A9E03125D886E5F"
+				"2E01C852FA527D91"
+				"6DF8116159EFCDAE"
+			]
+			id: "307A0E795A6036B8"
+			tasks: [{
+				id: "141638FCC9DF70E0"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"653D311A97DFD4DA"
+				"073080117884C473"
+				"6DF8116159EFCDAE"
+			]
+			id: "073127D5CFE12B4A"
+			tasks: [{
+				id: "00AB553E4043DC31"
+				item: "hostilenetworks:overworld_prediction"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"653D311A97DFD4DA"
+				"073080117884C473"
+				"6DF8116159EFCDAE"
+			]
+			id: "1A4D27797B86421A"
+			tasks: [{
+				id: "5E17D48C4C2B7AF8"
+				item: "hostilenetworks:nether_prediction"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"653D311A97DFD4DA"
+				"073080117884C473"
+				"6DF8116159EFCDAE"
+			]
+			id: "2ED2B12D3CAF64D1"
+			tasks: [{
+				id: "17C725DCC4F3EF90"
+				item: "hostilenetworks:end_prediction"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"14E3276C5C0F6392"
+				"6DF8116159EFCDAE"
+			]
+			id: "073080117884C473"
+			tasks: [{
+				id: "1DDAF47218836770"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:data_model"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7245094C51AFCAD8"
+				"653D311A97DFD4DA"
+				"073080117884C473"
+				"6DF8116159EFCDAE"
+			]
+			id: "64072647AED52F13"
+			tasks: [{
+				id: "65E48F2DB240D37B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:prediction"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+	]
+	subtitle: ["&aTuto Hostile Neural Network"]
 	title: "Hostile Neural Network"
 }

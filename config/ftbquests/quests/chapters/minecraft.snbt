@@ -2679,7 +2679,7 @@
 				item: "minecraft:white_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: -7.5d
 		}
 		{
@@ -2690,7 +2690,7 @@
 				item: "minecraft:orange_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: -6.5d
 		}
 		{
@@ -2701,7 +2701,7 @@
 				item: "minecraft:magenta_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: -5.5d
 		}
 		{
@@ -2712,7 +2712,7 @@
 				item: "minecraft:light_blue_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: -4.5d
 		}
 		{
@@ -2723,7 +2723,7 @@
 				item: "minecraft:yellow_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: -3.5d
 		}
 		{
@@ -2734,7 +2734,7 @@
 				item: "minecraft:lime_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: -2.5d
 		}
 		{
@@ -2745,7 +2745,7 @@
 				item: "minecraft:pink_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: -1.5d
 		}
 		{
@@ -2756,7 +2756,7 @@
 				item: "minecraft:gray_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: -0.5d
 		}
 		{
@@ -2767,7 +2767,7 @@
 				item: "minecraft:light_gray_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: 0.5d
 		}
 		{
@@ -2778,7 +2778,7 @@
 				item: "minecraft:cyan_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: 1.5d
 		}
 		{
@@ -2789,7 +2789,7 @@
 				item: "minecraft:purple_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: 2.5d
 		}
 		{
@@ -2800,7 +2800,7 @@
 				item: "minecraft:blue_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: 3.5d
 		}
 		{
@@ -2811,7 +2811,7 @@
 				item: "minecraft:brown_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: 4.5d
 		}
 		{
@@ -2822,7 +2822,7 @@
 				item: "minecraft:green_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: 5.5d
 		}
 		{
@@ -2833,7 +2833,7 @@
 				item: "minecraft:red_wool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: 6.5d
 		}
 		{
@@ -2844,7 +2844,7 @@
 				item: "thermal:black_rockwool"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 31.5d
 			y: 7.5d
 		}
 		{
@@ -2936,6 +2936,101 @@
 			}]
 			x: 19.0d
 			y: -14.5d
+		}
+		{
+			dependencies: ["41D6A9908115F916"]
+			id: "2061847049566C05"
+			tasks: [{
+				id: "38569B5A91AD298B"
+				item: "minecraft:glass_pane"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -8.5d
+		}
+		{
+			id: "1347455C661536BF"
+			tasks: [{
+				id: "060A6BB36C46D71F"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -18.5d
+		}
+		{
+			dependencies: [
+				"322A37E139F6B4B9"
+				"1A9E03125D886E5F"
+			]
+			id: "405591E380AD1831"
+			tasks: [{
+				id: "6745584250C24939"
+				item: "minecraft:clock"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"03EAA923E833373F"
+				"322A37E139F6B4B9"
+			]
+			id: "2A75D1D0E09F07D3"
+			tasks: [{
+				id: "16802D4203AC69EC"
+				item: "minecraft:redstone_lamp"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["39BF9FED255ABA23"]
+			id: "03EAA923E833373F"
+			tasks: [{
+				id: "29A47D8244EF0F8F"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -12.0d
+		}
+		{
+			id: "39BF9FED255ABA23"
+			tasks: [{
+				id: "02A15801D83EB1A6"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6F51D13F79CBB640"]
+			id: "127AD622633919AF"
+			tasks: [{
+				id: "0DD263DDDBA55929"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -13.5d
+		}
+		{
+			icon: "minecraft:end_portal_frame"
+			id: "6F51D13F79CBB640"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "48DE5AA8CA4F50B0"
+				title: "End"
+				type: "dimension"
+			}]
+			title: "Visit The End"
+			x: -19.0d
+			y: -11.0d
 		}
 	]
 	title: "Minecraft"

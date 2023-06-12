@@ -21,10 +21,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"6E1194705458DD8A"
-				"1E8C3BF31D2FCFA7"
-			]
 			hide_dependency_lines: false
 			icon: "ironfurnaces:rainbow_coal"
 			id: "70DBEE7D7D9B6A93"
@@ -52,6 +48,7 @@
 				id: "22983F870FFD9AA4"
 				type: "checkmark"
 			}]
+			title: "Terminer Iron Furnace"
 			x: -2.0d
 			y: -3.5d
 		}
@@ -79,6 +76,60 @@
 			}]
 			x: -6.0d
 			y: -3.5d
+		}
+		{
+			icon: "hostilenetworks:sim_chamber"
+			id: "6DF8116159EFCDAE"
+			tasks: [{
+				id: "2639BABA3EC10AC8"
+				title: "Hostile Neural Networks"
+				type: "checkmark"
+			}]
+			title: "Hostile Neural Network"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6DF8116159EFCDAE"
+				"64072647AED52F13"
+			]
+			hide_dependency_lines: false
+			id: "3776653FBCC3105F"
+			tasks: [{
+				id: "37CCBEE337F81EAE"
+				title: "Finito"
+				type: "checkmark"
+			}]
+			title: "Terminer Hostile Neural Networks"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			icon: "solarflux:sp_8"
+			id: "7DBDE4A2AF1E6FA0"
+			tasks: [{
+				id: "20A9D01D2F76637C"
+				title: "Solar Flux Reborn"
+				type: "checkmark"
+			}]
+			title: "&5Solar Flux Reborn"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7DBDE4A2AF1E6FA0"
+				"3BC0F2714E0D1A25"
+			]
+			id: "4B37BD9E557A793B"
+			tasks: [{
+				id: "7949E52D7998D113"
+				title: "Terminer Solar Flux Network"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.0d
 		}
 	]
 	title: "Mods"

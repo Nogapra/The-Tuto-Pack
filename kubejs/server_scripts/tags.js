@@ -1,5 +1,7 @@
 // Listen to item tag event
 ServerEvents.tags("item", event => {
+
+    // Cooking For Blockheads
     event.add("forge:kitchen_floor", [
         "cookingforblockheads:white_kitchen_floor",
         "cookingforblockheads:orange_kitchen_floor",
@@ -18,4 +20,8 @@ ServerEvents.tags("item", event => {
         "cookingforblockheads:red_kitchen_floor",
         "cookingforblockheads:black_kitchen_floor"
     ])
+
+    // Hostile Neural Network
+    event.add("forge:data_model", "hostilenetworks:data_model")
+    event.add("forge:prediction", "hostilenetworks:prediction")
 })

@@ -28,4 +28,8 @@ JEIEvents.hideItems(event => {
     event.hide( "growablecells:seed_rs_es_fluid_65536k_disk")
     event.hide( "growablecells:seed_rs_es_fluid_262144k_disk")
     event.hide( "growablecells:seed_rs_es_fluid_1048576k_disk")
+
+    // Hostile Neural Network
+    event.hide( "hostilenetworks:twilight_prediction")
+    //event.hide( Item.of('hostilenetworks:data_model', '{data_model:{id:"hostilenetworks:thermal/basalz"}}'))
 })

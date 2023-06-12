@@ -1,10 +1,10 @@
 ServerEvents.recipes(event => {
 
-    //Cooking For Blockheads
+    // Cooking For Blockheads
     event.remove({ id: "cookingforblockheads:recipe_book_smelting_from_nofilter"})
 
 
-    //Growable Cell
+    // Growable Cell
 	event.remove({ output: "growablecells:seed_rs_1k_disk" })
     event.remove({ output: "growablecells:seed_rs_4k_disk" })
     event.remove({ output: "growablecells:seed_rs_16k_disk" })
@@ -33,7 +33,11 @@ ServerEvents.recipes(event => {
     event.remove({ output: "growablecells:seed_rs_es_fluid_262144k_disk" })
     event.remove({ output: "growablecells:seed_rs_es_fluid_1048576k_disk" })
 
-    //Iron Furnaces
+    // Hostile Neural Network
+    //event.remove({ id: "hostilenetworks:living_matter/overworld_to_nether"})
+    //event.remove({ id: "hostilenetworks:living_matter/nether_to_ender"})
+
+    // Iron Furnaces
     event.remove({ id: "ironfurnaces:furnaces/iron_furnace" })
     event.remove({ id: "ironfurnaces:furnaces/silver_furnace2" })
     event.remove({ id: "ironfurnaces:furnaces/gold_furnace" })

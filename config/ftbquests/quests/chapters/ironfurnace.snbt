@@ -3,14 +3,11 @@
 	default_quest_shape: "circle"
 	filename: "ironfurnace"
 	group: "02778963C079B8E1"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
 	icon: "ironfurnaces:iron_furnace"
 	id: "3D200E0FEC840D62"
 	images: [{
 		click: "https://github.com/Qelifern/IronFurnaces/wiki"
 		corner: false
-		dependency: "70DBEE7D7D9B6A93"
 		dev: false
 		height: 3.56125d
 		hover: [
@@ -58,7 +55,6 @@
 				"&#F2D81Acuit un item en 200 ticks soit 10s."
 				""
 			]
-			hide_details_until_startable: true
 			icon: "ironfurnaces:copper_furnace"
 			id: "66FCE740899C2C10"
 			rewards: [{
@@ -574,7 +570,6 @@
 				"et le &9R&ea&ei&dn&bb&9o&aw &dL&ci&dn&ek&de&br&r."
 				""
 			]
-			hide_details_until_startable: true
 			icon: "ironfurnaces:rainbow_core"
 			id: "2CDEB20702CDB119"
 			rewards: [{
@@ -1511,7 +1506,6 @@
 				"453EBCDFDE59046C"
 				"2E41E7B311557721"
 			]
-			hide: true
 			id: "27287A4EB6D97BA6"
 			rewards: [{
 				id: "7319D9D9F9A45433"

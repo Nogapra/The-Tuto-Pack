@@ -2,7 +2,7 @@
 	"x": 5,
 	"y": 45,
 	"width": 120,
-	"height": 30,
+	"height": 31,
 	"langKey": "packmenu.atm.discord",
 	"action": "OPEN_URL",
 	"data": "https://discord.gg/3paFjuRfz9",
@@ -11,11 +11,11 @@
 	"hoverU": 0,
 	"hoverV": 0,
 	"texWidth": 120,
-	"texHeight": 60,
+	"texHeight": 31,
 	"texture": "thetutopack:textures/discord.png",
 	"fontColor": 0,
 	"hoverFontColor": 1140326,
 	"dropShadow": false,
-	"textXOffset": 5,
-	"textYOffset": -6
+	"textXOffset": 14,
+	"textYOffset": -4
 }
